@@ -105,6 +105,7 @@ public class MainActivity extends FragmentActivity
                 // MainActivity.this.finish();
             }
         });
+        ///
 
         profile = (Button)findViewById(R.id.Profile);
         profile.setOnClickListener(new View.OnClickListener() {

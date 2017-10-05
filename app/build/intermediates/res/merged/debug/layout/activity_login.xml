@@ -3,14 +3,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.unimelb.jigarthakkar.safedrivesystem.LoginActivity"
-    android:id="@+id/login" >
+    tools:context="com.unimelb.jigarthakkar.safedrivesystem.LoginActivity">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
@@ -18,86 +18,86 @@
         android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>
 
     <!--<com.facebook.login.widget.LoginButton-->
-        <!--android:id="@+id/login_button"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content" />-->
+    <!--android:id="@+id/login_button"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Log In"
         android:id="@+id/title_s"
-        android:textSize="35dp"
-        android:layout_marginTop="61dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Log In"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
         android:id="@+id/log_email"
-        android:hint="Email"
-        android:layout_marginTop="28dp"
-        android:layout_below="@+id/title_s"
-        android:layout_alignStart="@+id/log_pwd" />
-
-    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:layout_alignStart="@+id/log_pwd"
+        android:layout_below="@+id/title_s"
+        android:layout_marginTop="28dp"
         android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
         android:id="@+id/log_pwd"
-        android:hint="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/log_email"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
     <RelativeLayout
+        android:id="@+id/snak"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:id="@+id/snak"
-        android:background="@null"
-        android:layout_below="@+id/log_pwd"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="29dp">
+        android:layout_below="@+id/log_pwd"
+        android:layout_marginTop="29dp"
+        android:background="@null">
 
         <Button
+            android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel"
-            android:id="@+id/cancel"
-            android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
-            android:background="#4169E1"
-            android:textColor="#FAFAFA"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:background="#4169E1"
+            android:text="Cancel"
+            android:textColor="#FAFAFA" />
 
         <Button
+            android:id="@+id/btlogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login"
-            android:id="@+id/btlogin"
-            android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:background="#4169E1"
-            android:textColor="#FAFAFA"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp" />
+            android:background="#4169E1"
+            android:text="Login"
+            android:textColor="#FAFAFA" />
 
     </RelativeLayout>
 
     <ProgressBar
+        android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/progressBar"
-        android:visibility="invisible"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp" />
+        android:layout_marginBottom="27dp"
+        android:visibility="invisible" />
 
 </RelativeLayout>
