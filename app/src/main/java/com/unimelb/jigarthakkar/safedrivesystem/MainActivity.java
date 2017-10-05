@@ -282,7 +282,7 @@ public class MainActivity extends FragmentActivity
             if (addressString.contains("Road")) {
                 onRoad = true;
             }
-            
+
             else {onRoad = false;}
 
             Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
