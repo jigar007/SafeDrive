@@ -1,26 +1,10 @@
 [
     {
-        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

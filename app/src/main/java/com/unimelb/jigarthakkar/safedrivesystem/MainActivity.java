@@ -1,7 +1,9 @@
 package com.unimelb.jigarthakkar.safedrivesystem;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -137,6 +139,8 @@ public class MainActivity extends FragmentActivity
         if (!mGoogleApiClient.isConnected()) {
             mGoogleApiClient.connect();
         }
+
+
     }
 
     @Override
@@ -281,10 +285,15 @@ public class MainActivity extends FragmentActivity
             else {onRoad = false;}
 
             Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
+            SharedPreferences sharedPreferences = getSharedPreferences("test", Activity.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("currentLocation", addressString);
+            editor.commit();
         }
         catch (Exception e) {
             Toast.makeText(this, "can not find address !", Toast.LENGTH_LONG).show();
         }
+
 
 
 

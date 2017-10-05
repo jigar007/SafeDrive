@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,55 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/jigarthakkar/.android/build-cache/47fb331026e2d0d9ee9226951a10e1cad18cb282/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/Users/jigarthakkar/.android/build-cache/47fb331026e2d0d9ee9226951a10e1cad18cb282/output/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 229,
-                        "endColumn": 45,
-                        "endOffset": 270
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "/Users/jigarthakkar/.android/build-cache/47fb331026e2d0d9ee9226951a10e1cad18cb282/output/res/values/values.xml",
+                    "file": "/Users/robin/.android/build-cache/1d8bec5ecd6d660a43f47d9fac668bb783ea81d0/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
