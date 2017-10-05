@@ -105,6 +105,7 @@ public class MainActivity extends FragmentActivity
                 // MainActivity.this.finish();
             }
         });
+        ///
 
         profile = (Button)findViewById(R.id.Profile);
         profile.setOnClickListener(new View.OnClickListener() {
@@ -282,7 +283,7 @@ public class MainActivity extends FragmentActivity
             if (addressString.contains("Road")) {
                 onRoad = true;
             }
-            
+
             else {onRoad = false;}
 
             Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
