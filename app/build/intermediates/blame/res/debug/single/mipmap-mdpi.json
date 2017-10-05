@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
-        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_navigation_black_24dp.png",
-        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_navigation_black_24dp.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_navigation_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_navigation_black_24dp.png"
     }
 ]
