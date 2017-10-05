@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/ce7c1593743281c08fec5fd5ec62289341ec92b7/output/res/anim/abc_slide_out_bottom.xml"
+    }
+]

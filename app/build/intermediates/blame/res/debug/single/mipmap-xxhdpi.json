@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/MobileComputing/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/MobileComputing/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDriveSystem/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
