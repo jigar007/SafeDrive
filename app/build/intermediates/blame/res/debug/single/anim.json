@@ -1,42 +1,66 @@
 [
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/tooltip_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/9bd7a488f086ec2cb29e37574d6967a459d1985e/output/res/anim/tooltip_enter.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_fade_in.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/tooltip_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/9bd7a488f086ec2cb29e37574d6967a459d1985e/output/res/anim/tooltip_exit.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_fade_out.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/anim/design_snackbar_in.xml"
     }
 ]

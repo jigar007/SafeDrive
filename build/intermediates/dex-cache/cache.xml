@@ -3,21 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="22a8d29618868a286427ff651555e6c5257629a6">
-        <dex dex="/Users/robin/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4c602490077d1d8bd961cff20a5502aff21ae4e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/robin/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_72085c65da014f40985e24be74000979a032cc65/classes.dex" />
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdcb9649a2a7a4db09293f6d6265c928b32cbda7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/86c5efe22629f38ca64199bce9e4948b0036bab2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cf99f05d942e98663884d24601d227e51a41a1be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/aa054dfe51604c9c8341459cfaba0d92c060e1e9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c5d7ecfb8642942784003924b4b4701f18d0459a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_873f9ca076eac654222924c716b2d8b14766a200/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad153623bcdefc281896857721195d7c0a831fe0">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e4c90b51f3588d2210ef45823831c80709ee2d4/classes.dex" />
     </item>
 
 </items>
