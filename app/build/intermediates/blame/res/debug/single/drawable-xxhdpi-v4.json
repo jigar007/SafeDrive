@@ -336,12 +336,12 @@
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
-        "source": "/Users/jigarthakkar/.android/build-cache/249acd9a85a1ddfe09e8bdf82e6b1bec86872c91/output/res/drawable-xxhdpi-v4/powered_by_google_light.png"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/powered_by_google_light.png",
+        "source": "/Users/jigarthakkar/.android/build-cache/249acd9a85a1ddfe09e8bdf82e6b1bec86872c91/output/res/drawable-xxhdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connecting_11_dark.png",
@@ -564,10 +564,6 @@
         "source": "/Users/jigarthakkar/.android/build-cache/8c99ea6e9f59ee81be9603b002e16eb400949299/output/res/drawable-xxhdpi-v4/cast_ic_notification_0.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/design_ic_visibility.png",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-xxhdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png",
         "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png"
     },
@@ -598,10 +594,6 @@
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_03_dark.png",
         "source": "/Users/jigarthakkar/.android/build-cache/75d8eb5861da50e0ba35e7467ffa4af92ca71998/output/res/drawable-xxhdpi-v4/ic_mr_button_connected_03_dark.png"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/design_ic_visibility_off.png",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_dialog_close_light.png",

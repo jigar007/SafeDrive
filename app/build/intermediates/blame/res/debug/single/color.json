@@ -8,10 +8,6 @@
         "source": "/Users/jigarthakkar/.android/build-cache/4e0634be06f44ddd46c33e263b0eb466ff84293f/output/res/color/wallet_primary_text_holo_light.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_edittext.xml"
     },
@@ -28,12 +24,12 @@
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
@@ -70,10 +66,6 @@
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/be68d50254a09a0a9260dfa15392c72996801a2b/output/res/color/common_google_signin_btn_tint.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/color/design_error.xml"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",

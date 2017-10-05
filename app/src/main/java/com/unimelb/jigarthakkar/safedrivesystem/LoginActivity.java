@@ -108,6 +108,7 @@ public class LoginActivity extends AppCompatActivity {
         shared = getSharedPreferences("userdata", Activity.MODE_PRIVATE);
         editor = shared.edit();
 
+        // firebase
         button = (SignInButton)findViewById(R.id.googleBtn);
 
         button.setOnClickListener(new View.OnClickListener(){

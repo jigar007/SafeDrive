@@ -12,23 +12,7 @@
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-v21/design_password_eye.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-v21/avd_hide_password.xml"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/notification_action_background.xml"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/0dbb2f151682a510192a6e2c6ba3603d3d6a1469/output/res/drawable-v21/avd_show_password.xml"
     }
 ]
