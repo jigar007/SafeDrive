@@ -9,15 +9,20 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
@@ -36,6 +41,11 @@ public class SignupActivity extends AppCompatActivity {
     private EditText User_name;
     private EditText User_email;
     private EditText password;
+
+    private ImageView backgroundRotate;
+
+
+
 
     String name;
     String email;
@@ -74,6 +84,19 @@ public class SignupActivity extends AppCompatActivity {
 
         shared = getSharedPreferences("userdata", Activity.MODE_PRIVATE);
         editor = shared.edit();
+        /*
+        backgroundRotate = (ImageView)findViewById(R.id.id_back);
+        //backgroundRotate.setScaleType(ImageView.ScaleType.FIT_XY);
+        Animation animation = AnimationUtils.loadAnimation(SignupActivity.this, R.anim.background);
+        animation.setFillAfter(true);
+        backgroundRotate.startAnimation(animation);
+        */
+        RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.signup);
+        AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(1250);
+        animationDrawable.setExitFadeDuration(2500);
+
+        animationDrawable.start();
 
         try {
             // Create the Mobile Service Client instance

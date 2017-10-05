@@ -4,6 +4,10 @@
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-hdpi/ic_navigation_black_24dp.png"
     },
     {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-hdpi/sampleimage.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-hdpi/sampleimage.png"
+    },
+    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
