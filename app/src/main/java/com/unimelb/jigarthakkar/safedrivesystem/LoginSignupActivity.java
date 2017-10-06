@@ -5,10 +5,12 @@ package com.unimelb.jigarthakkar.safedrivesystem;
  */
 
 import android.content.Intent;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 public class LoginSignupActivity extends AppCompatActivity {
 
@@ -38,6 +40,12 @@ public class LoginSignupActivity extends AppCompatActivity {
                 startActivity(signup);
             }
         });
+
+        RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.main);
+        AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(1250);
+        animationDrawable.setExitFadeDuration(2500);
+        animationDrawable.start();
     }
 
 }

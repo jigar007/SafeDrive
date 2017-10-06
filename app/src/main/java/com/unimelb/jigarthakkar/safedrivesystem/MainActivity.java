@@ -336,7 +336,7 @@ public class MainActivity extends FragmentActivity
                 mAccelerometerReading, mMagnetometerReading);
         float tmp = mAccelerometerReading[0];
         String s =String.valueOf(tmp);
-        Log.d("asd",s);
+        //Log.d("asd",s);
 
         mSensorManager.getOrientation(mRotationMatrix, mOrientationAngles);
     }

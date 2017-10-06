@@ -84,18 +84,11 @@ public class SignupActivity extends AppCompatActivity {
 
         shared = getSharedPreferences("userdata", Activity.MODE_PRIVATE);
         editor = shared.edit();
-        /*
-        backgroundRotate = (ImageView)findViewById(R.id.id_back);
-        //backgroundRotate.setScaleType(ImageView.ScaleType.FIT_XY);
-        Animation animation = AnimationUtils.loadAnimation(SignupActivity.this, R.anim.background);
-        animation.setFillAfter(true);
-        backgroundRotate.startAnimation(animation);
-        */
+
         RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.signup);
         AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
         animationDrawable.setEnterFadeDuration(1250);
         animationDrawable.setExitFadeDuration(2500);
-
         animationDrawable.start();
 
         try {

@@ -12,12 +12,12 @@
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/drawable/back4.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
-        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
-    },
-    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
+        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
@@ -100,6 +100,10 @@
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
     },
     {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/ic_drive_eta_white_48dp.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/drawable/ic_drive_eta_white_48dp.png"
+    },
+    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_notification_skip_next.xml"
     },
@@ -132,20 +136,16 @@
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/sampleimage.png",
-        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/drawable/sampleimage.png"
-    },
-    {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
+        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_mini_controller_gradient_light.xml"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
-        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_mini_controller_gradient_light.xml"
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
@@ -160,12 +160,12 @@
         "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_notification_skip_prev.xml"
-    },
-    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
         "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_notification_skip_prev.xml"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
@@ -182,6 +182,10 @@
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/splash_background.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/drawable/splash_background.png"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
@@ -246,6 +250,10 @@
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
         "source": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/splash.xml",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/drawable/splash.xml"
     },
     {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
