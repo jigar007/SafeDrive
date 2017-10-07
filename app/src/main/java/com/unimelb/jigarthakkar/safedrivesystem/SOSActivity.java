@@ -16,6 +16,7 @@ import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.content.Intent;
 import android.database.Cursor;
@@ -31,19 +32,20 @@ import java.util.List;
 public class SOSActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
-    private Button police;
-    private Button family;
-    private Button insurance;
-    private Button policesms;
-    private Button familysms;
-    private Button insurancesms;
+    private ImageButton police;
+    private ImageButton family;
+    private ImageButton insurance;
+    private ImageButton policesms;
+    private ImageButton familysms;
+    private ImageButton insurancesms;
+    //
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sos2);
-        police = (Button)findViewById(R.id.callpolice);
+        police = (ImageButton)findViewById(R.id.callpolice);
         police.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -55,7 +57,7 @@ public class SOSActivity extends AppCompatActivity {
                 }
             }
         });
-        family = (Button)findViewById(R.id.callfamily);
+        family = (ImageButton)findViewById(R.id.callfamily);
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -67,7 +69,7 @@ public class SOSActivity extends AppCompatActivity {
                 }
             }
         });
-        insurance = (Button)findViewById(R.id.callinsurance);
+        insurance = (ImageButton)findViewById(R.id.callinsurance);
         insurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -79,7 +81,7 @@ public class SOSActivity extends AppCompatActivity {
                 }
             }
         });
-        policesms = (Button)findViewById(R.id.police);
+        policesms = (ImageButton)findViewById(R.id.police);
         policesms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -90,7 +92,7 @@ public class SOSActivity extends AppCompatActivity {
 
             }
         });
-        familysms = (Button)findViewById(R.id.family);
+        familysms = (ImageButton)findViewById(R.id.family);
         familysms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -103,7 +105,7 @@ public class SOSActivity extends AppCompatActivity {
 
             }
         });
-        insurancesms = (Button)findViewById(R.id.insurance);
+        insurancesms = (ImageButton)findViewById(R.id.insurance);
         insurancesms.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
@@ -153,27 +155,27 @@ public class SOSActivity extends AppCompatActivity {
         }
         return name + number;
     }
-//EditText text = (EditText)findViewById(R.id.callpolice);
+    //EditText text = (EditText)findViewById(R.id.callpolice);
 //String match = text.getText().toString();
-public void SendSMS(String phoneNumber,String message){
-    String SENT_SMS_ACTION = "SENT_SMS_ACTION";
-    Intent sentIntent = new Intent(SENT_SMS_ACTION);
-    PendingIntent sendIntent= PendingIntent.getBroadcast(SOSActivity.this, 0, sentIntent,
-            0);
-    String DELIVERED_SMS_ACTION = "DELIVERED_SMS_ACTION";
-    // create the deilverIntent parameter
-    Intent deliverIntent = new Intent(DELIVERED_SMS_ACTION);
-    PendingIntent backIntent= PendingIntent.getBroadcast(SOSActivity.this, 0,
-            deliverIntent, 0);
+    public void SendSMS(String phoneNumber,String message){
+        String SENT_SMS_ACTION = "SENT_SMS_ACTION";
+        Intent sentIntent = new Intent(SENT_SMS_ACTION);
+        PendingIntent sendIntent= PendingIntent.getBroadcast(SOSActivity.this, 0, sentIntent,
+                0);
+        String DELIVERED_SMS_ACTION = "DELIVERED_SMS_ACTION";
+        // create the deilverIntent parameter
+        Intent deliverIntent = new Intent(DELIVERED_SMS_ACTION);
+        PendingIntent backIntent= PendingIntent.getBroadcast(SOSActivity.this, 0,
+                deliverIntent, 0);
 
-    Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:"+phoneNumber));
-    intent.putExtra("sms_body", message);
-    startActivity(intent);
-    android.telephony.SmsManager smsManager = android.telephony.SmsManager.getDefault();
-    List<String> divideContents = smsManager.divideMessage(message);
-    for (String text : divideContents) {
-        smsManager.sendTextMessage(phoneNumber, null, text, sendIntent, backIntent);
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:"+phoneNumber));
+        intent.putExtra("sms_body", message);
+        startActivity(intent);
+        android.telephony.SmsManager smsManager = android.telephony.SmsManager.getDefault();
+        List<String> divideContents = smsManager.divideMessage(message);
+        for (String text : divideContents) {
+            smsManager.sendTextMessage(phoneNumber, null, text, sendIntent, backIntent);
+        }
     }
-}
 
 }
