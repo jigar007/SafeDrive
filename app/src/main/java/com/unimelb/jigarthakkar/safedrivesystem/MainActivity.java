@@ -398,8 +398,8 @@ public class MainActivity extends FragmentActivity
             editor.putString("currentLocation", addressString + city + state + country);
 
             editor.commit();
-            Toast.makeText(this, "hhhh", Toast.LENGTH_SHORT).show();
             editor.remove("visitedLocation").commit();
+
             for (String s : visitedAddress) {
                 editor.putString("visitedLocation", s + "\n");
             }
