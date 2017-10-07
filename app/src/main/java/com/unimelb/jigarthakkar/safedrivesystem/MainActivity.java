@@ -127,6 +127,7 @@ public class MainActivity extends FragmentActivity
         locationRequest.setFastestInterval(1000);
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
     }
+    ///
 
 
     @Override
