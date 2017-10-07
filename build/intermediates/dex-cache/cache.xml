@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\lenovo\Desktop\SafeDrive\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\lenovo\Desktop\SafeDrive\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7e0ee5a15ce4e98dfeeab3d01cfda3d49cfede38\classes.dex" />
+        <dex dex="/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_67d72514cbcf1c88eb11b7aaec16a0a1acb334fc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\lenovo\Desktop\SafeDrive\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="47b285a09d6087c347a93e5776d300e2be472f88">
-        <dex dex="C:\Users\lenovo\Desktop\SafeDrive\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ab4df2e9c295a8dc824b63fb384a6ab1c10283d5\classes.dex" />
+        sha1="1ac127c06611ef47aeee51aa95c74d64c5a25b98">
+        <dex dex="/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eaed8d8fce787f5d6b9762e25e005b861d2d7af2/classes.dex" />
     </item>
 
 </items>

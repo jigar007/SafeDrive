@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+        "outputFile": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\df5c0a5f38449f8b9911aaa719cbe255b2bc3291\\output\\res\\values-en-rCA\\values.xml",
+                    "file": "/Users/user/.android/build-cache/4b471167a00ce0dd93f339a85d7eb314b6dbb51f/output/res/values-en-rCA/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

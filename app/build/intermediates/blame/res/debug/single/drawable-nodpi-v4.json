@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\cast_album_art_placeholder.png",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\drawable-nodpi-v4\\cast_album_art_placeholder.png"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder_large.png",
+        "source": "/Users/user/.android/build-cache/73b177a7a46fa9985b409031cc082ee6c7557372/output/res/drawable-nodpi-v4/cast_album_art_placeholder_large.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\cast_album_art_placeholder_large.png",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\drawable-nodpi-v4\\cast_album_art_placeholder_large.png"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder.png",
+        "source": "/Users/user/.android/build-cache/73b177a7a46fa9985b409031cc082ee6c7557372/output/res/drawable-nodpi-v4/cast_album_art_placeholder.png"
     }
 ]

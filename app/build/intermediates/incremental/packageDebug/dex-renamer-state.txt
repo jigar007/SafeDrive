@@ -1,7 +1,7 @@
-#Sat Oct 07 23:37:51 GMT+11:00 2017
-base.0=C\:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ab4df2e9c295a8dc824b63fb384a6ab1c10283d5
+#Sun Oct 08 00:35:32 AEDT 2017
+base.0=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eaed8d8fce787f5d6b9762e25e005b861d2d7af2
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7e0ee5a15ce4e98dfeeab3d01cfda3d49cfede38\\classes.dex
-base.1=C\:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7e0ee5a15ce4e98dfeeab3d01cfda3d49cfede38
-file.0=C\:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ab4df2e9c295a8dc824b63fb384a6ab1c10283d5\\classes.dex
+file.1=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_67d72514cbcf1c88eb11b7aaec16a0a1acb334fc/classes.dex
+base.1=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_67d72514cbcf1c88eb11b7aaec16a0a1acb334fc
+file.0=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eaed8d8fce787f5d6b9762e25e005b861d2d7af2/classes.dex

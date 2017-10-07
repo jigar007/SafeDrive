@@ -11,15 +11,19 @@ import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
+import java.lang.String;
 
 public class ProfileActivity extends AppCompatActivity {
 
     TextView pname;
     TextView pemail;
+    TextView joinDate;
+    TextView protectDay;
 
-    Button bt_signout;
+    ImageButton bt_signout;
+    ImageButton bt_edit_contact;
 
     private SharedPreferences shared;
     private Editor editor;
@@ -36,6 +40,13 @@ public class ProfileActivity extends AppCompatActivity {
         String name = shared.getString("name", "");
         String email = shared.getString("email", "");
 
+        String date = shared.getString("date", "");
+        String splitString[] = date.split(" ");
+        String loginDate = splitString[0];
+
+        String today = TimeUtil.getTime();
+        String days = TimeUtil.getTimeDifference(loginDate, today);
+
         // Show data
         pname = (TextView) findViewById(R.id.profile_name);
         pname.setText(name);
@@ -43,8 +54,26 @@ public class ProfileActivity extends AppCompatActivity {
         pemail = (TextView) findViewById(R.id.profile_email);
         pemail.setText(email);
 
+        joinDate = (TextView) findViewById(R.id.date_number);
+        joinDate.setText(date);
+
+        protectDay = (TextView) findViewById(R.id.days_number);
+        protectDay.setText(days + " days");
+
+        // Edit emergency contact
+        bt_edit_contact = (ImageButton) findViewById(R.id.edit_contact);
+
+        bt_edit_contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(getApplicationContext(), EditContactActivity.class);
+                startActivity(intent);
+            }
+        });
+
         // Sign out
-        bt_signout = (Button) findViewById(R.id.sign_out);
+        bt_signout = (ImageButton) findViewById(R.id.bt_logout);
 
         // On sign out,
         // clear all activity data,

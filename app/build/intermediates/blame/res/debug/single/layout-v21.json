@@ -1,22 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\d4b54adf762b6e87737412b3a4b6628dbd965ac6\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/Users/user/.android/build-cache/1c6ec82fdeef05c4475c32f49992fd06fb5ab3ef/output/res/layout-v21/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/layout-v21/notification_action.xml"
     }
 ]

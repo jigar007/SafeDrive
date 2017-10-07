@@ -65,6 +65,7 @@
         <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.ProfileActivity" />
         <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.RecordActivity" />
         <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.SOSActivity" />
+        <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.EditContactActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -91,6 +92,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.Activitynewsplash" />
+        <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.FaceActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "outputFile": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-v18\\values-v18.xml",
+                    "file": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/values-v18/values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

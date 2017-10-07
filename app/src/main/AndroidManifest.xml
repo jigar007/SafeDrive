@@ -47,6 +47,7 @@
         <activity android:name=".ProfileActivity" />
         <activity android:name=".RecordActivity" />
         <activity android:name=".SOSActivity" />
+        <activity android:name=".EditContactActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

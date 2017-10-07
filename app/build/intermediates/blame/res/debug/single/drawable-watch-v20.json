@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\59a35532a3e3a9f80a36819171db6365ba610f73\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/user/.android/build-cache/af44851ad03316291e362c152d96031d9f76385d/output/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\59a35532a3e3a9f80a36819171db6365ba610f73\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/user/.android/build-cache/af44851ad03316291e362c152d96031d9f76385d/output/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml",
-        "source": "C:\\Users\\lenovo\\.android\\build-cache\\59a35532a3e3a9f80a36819171db6365ba610f73\\output\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/user/.android/build-cache/af44851ad03316291e362c152d96031d9f76385d/output/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
     }
 ]

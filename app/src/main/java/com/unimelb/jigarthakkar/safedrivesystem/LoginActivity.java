@@ -8,7 +8,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,20 +18,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
+
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthCredential;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FacebookAuthProvider;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -40,11 +33,18 @@ import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthCredential;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import com.microsoft.windowsazure.mobileservices.MobileServiceList;
 import com.microsoft.windowsazure.mobileservices.table.MobileServiceTable;
+
 import java.net.MalformedURLException;
 
 public class LoginActivity extends AppCompatActivity {
@@ -57,6 +57,7 @@ public class LoginActivity extends AppCompatActivity {
     String name;
     String email;
     String pwd;
+    String date;
 
     /**
      * Mobile Service Client reference
@@ -136,14 +137,6 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         }).addApi(Auth.GOOGLE_SIGN_IN_API,gso).build();
-
-        RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.login);
-        /*
-        AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(1250);
-        animationDrawable.setExitFadeDuration(2500);
-        animationDrawable.start();
-        */
 
 
         try {
@@ -329,6 +322,7 @@ public class LoginActivity extends AppCompatActivity {
 
         email = lEmail.getText().toString();
         pwd = lPass.getText().toString();
+        date = TimeUtil.getTime();
 
         new AsyncTask<Void, Void, Void>() {
 
@@ -363,6 +357,7 @@ public class LoginActivity extends AppCompatActivity {
                         // Save data
                         editor.putString("name", name);
                         editor.putString("email", email);
+                        editor.putString("date", date);
                         editor.putBoolean("isLogin", true);
                         editor.commit();
 

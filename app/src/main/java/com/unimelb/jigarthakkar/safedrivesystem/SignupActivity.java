@@ -9,20 +9,15 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.graphics.drawable.AnimationDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
@@ -42,14 +37,10 @@ public class SignupActivity extends AppCompatActivity {
     private EditText User_email;
     private EditText password;
 
-    private ImageView backgroundRotate;
-
-
-
-
     String name;
     String email;
     String pwd;
+    String date;
 
     /**
      * Mobile Service Client reference
@@ -84,14 +75,6 @@ public class SignupActivity extends AppCompatActivity {
 
         shared = getSharedPreferences("userdata", Activity.MODE_PRIVATE);
         editor = shared.edit();
-
-        RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.signup);
-        /*
-        AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(1250);
-        animationDrawable.setExitFadeDuration(2500);
-        animationDrawable.start();
-        */
 
         try {
             // Create the Mobile Service Client instance
@@ -144,6 +127,7 @@ public class SignupActivity extends AppCompatActivity {
         name = User_name.getText().toString();
         email = User_email.getText().toString();
         pwd = password.getText().toString();
+        date = TimeUtil.getTime();
 
         new AsyncTask<Void, Void, Void>() {
 
@@ -182,6 +166,7 @@ public class SignupActivity extends AppCompatActivity {
                         // Save data
                         editor.putString("name", name);
                         editor.putString("email", email);
+                        editor.putString("date", date);
                         editor.putBoolean("isLogin", true);
                         editor.commit();
 
