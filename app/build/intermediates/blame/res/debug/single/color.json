@@ -1,102 +1,106 @@
 [
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/4e0634be06f44ddd46c33e263b0eb466ff84293f/output/res/color/wallet_primary_text_holo_light.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/switch_thumb_material_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/be68d50254a09a0a9260dfa15392c72996801a2b/output/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_default.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/color/common_google_signin_btn_text_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_switch_track.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_edittext.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_search_url_text.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/color/common_google_signin_btn_tint.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_spinner.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/be68d50254a09a0a9260dfa15392c72996801a2b/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
-        "source": "/Users/robin/.android/build-cache/b460d342c9d75d190f2b1f8163edf240a24a33ca/output/res/color/wallet_secondary_text_holo_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/color/common_google_signin_btn_text_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/be68d50254a09a0a9260dfa15392c72996801a2b/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_tint_switch_thumb.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/4e0634be06f44ddd46c33e263b0eb466ff84293f/output/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/robin/.android/build-cache/b460d342c9d75d190f2b1f8163edf240a24a33ca/output/res/color/wallet_primary_text_holo_light.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/73086a2711d67ce5f2c98f06e3226402128aab19/output/res/color/com_facebook_button_text_color.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/a50071f3f9f81f54ebf615e59edb99353a2a7bdb/output/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_hint_foreground_material_light.xml"
     }
 ]

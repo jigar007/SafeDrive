@@ -13,12 +13,25 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.os.Message;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import android.graphics.Color;
+import android.os.Handler;
+
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -72,6 +85,13 @@ public class MainActivity extends FragmentActivity
 
     private final float[] mRotationMatrix = new float[9];
     private final float[] mOrientationAngles = new float[3];
+
+    private SensorManager sensorManager;
+    private LineGraphSeries<DataPoint> series;
+    private static double currentX;
+    private ThreadPoolExecutor liveChartExecutor;
+    private LinkedBlockingQueue<Double> accelerationQueue = new LinkedBlockingQueue<>(10);
+
 
     protected synchronized void buildGoogleApiClient() {
         mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -142,6 +162,42 @@ public class MainActivity extends FragmentActivity
         }
 
 
+        sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+
+        GraphView graph = (GraphView) findViewById(R.id.graph);
+
+        series = new LineGraphSeries<>();
+        series.setColor(Color.GREEN);
+        graph.addSeries(series);
+
+        // activate horizontal zooming and scrolling
+        graph.getViewport().setScalable(true);
+
+        // activate horizontal scrolling
+        graph.getViewport().setScrollable(true);
+
+        // activate horizontal and vertical zooming and scrolling
+        graph.getViewport().setScalableY(true);
+
+        // activate vertical scrolling
+        graph.getViewport().setScrollableY(true);
+        // To set a fixed manual viewport use this:
+        // set manual X bounds
+        graph.getViewport().setXAxisBoundsManual(true);
+        graph.getViewport().setMinX(0.5);
+        graph.getViewport().setMaxX(6.5);
+
+        // set manual Y bounds
+        graph.getViewport().setYAxisBoundsManual(true);
+        graph.getViewport().setMinY(0);
+        graph.getViewport().setMaxY(10);
+
+        currentX = 0;
+
+        // Start chart thread
+        liveChartExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(1);
+        if (liveChartExecutor != null)
+            liveChartExecutor.execute(new AccelerationChart(new AccelerationChartHandler()));
     }
 
     @Override
@@ -168,6 +224,11 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+
+
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            getAccelerometer(event);
+        }
 
         //Toast.makeText(this, "sensor changed", Toast.LENGTH_LONG).show();
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
@@ -213,6 +274,9 @@ public class MainActivity extends FragmentActivity
         Toast.makeText(this, "back", Toast.LENGTH_LONG).show();
         //dd
 
+        sensorManager.registerListener(this,
+                sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
+                SensorManager.SENSOR_DELAY_NORMAL);
 
         mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
@@ -297,8 +361,6 @@ public class MainActivity extends FragmentActivity
         }
 
 
-
-
     }
 
     @Override
@@ -350,9 +412,66 @@ public class MainActivity extends FragmentActivity
 
     }
 
+    private class AccelerationChartHandler extends Handler {
+        @Override
+        public void handleMessage(Message msg) {
+            Double accelerationY = 0.0D;
+            if (!msg.getData().getString("ACCELERATION_VALUE").equals(null) && !msg.getData().getString("ACCELERATION_VALUE").equals("null")) {
+                accelerationY = (Double.parseDouble(msg.getData().getString("ACCELERATION_VALUE")));
+            }
 
+            series.appendData(new DataPoint(currentX, accelerationY), true, 10);
+            currentX = currentX + 1;
+        }
+    }
+
+    private void getAccelerometer(SensorEvent event) {
+        float[] values = event.values;
+        // Movement
+        double x = values[0];
+        double y = values[1];
+        double z = values[2];
+
+        double accelerationSquareRoot = (x * x + y * y + z * z) / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH);
+        double acceleration = Math.sqrt(accelerationSquareRoot);
+
+        accelerationQueue.offer(acceleration);
+    }
+
+    private class AccelerationChart implements Runnable {
+        private boolean drawChart = true;
+        private Handler handler;
+
+        public AccelerationChart(Handler handler) {
+            this.handler = handler;
+        }
+
+        @Override
+        public void run() {
+            while (drawChart) {
+                Double accelerationY;
+                try {
+                    Thread.sleep(300); // Speed up the X axis
+                    accelerationY = accelerationQueue.poll();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                    continue;
+                }
+                if (accelerationY == null)
+                    continue;
+
+                // currentX value will be excced the limit of double type range
+                // To overcome this problem comment of this line
+                // currentX = (System.currentTimeMillis() / 1000) * 8 + 0.6;
+
+                Message msgObj = handler.obtainMessage();
+                Bundle b = new Bundle();
+                b.putString("ACCELERATION_VALUE", String.valueOf(accelerationY));
+                msgObj.setData(b);
+                handler.sendMessage(msgObj);
+            }
+        }
+    }
 
 }
-
-
 
