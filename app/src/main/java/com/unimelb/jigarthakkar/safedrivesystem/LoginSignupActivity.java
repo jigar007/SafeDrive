@@ -40,7 +40,7 @@ public class LoginSignupActivity extends AppCompatActivity {
                 startActivity(signup);
             }
         });
-
+        // set the background animation
         RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.main);
         //AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
         //animationDrawable.setEnterFadeDuration(1250);
