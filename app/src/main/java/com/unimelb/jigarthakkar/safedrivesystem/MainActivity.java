@@ -385,6 +385,10 @@ public class MainActivity extends FragmentActivity
             if (!visitedAddress.contains(tmp)) {
                 visitedAddress.add(tmp);
             }
+
+
+
+
             if (addressString.contains("Rd")) {
                 onRoad = true;
             }
@@ -392,7 +396,15 @@ public class MainActivity extends FragmentActivity
             SharedPreferences sharedPreferences = getSharedPreferences("test", Activity.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("currentLocation", addressString + city + state + country);
+
             editor.commit();
+            editor.clear();
+
+            for (String s : visitedAddress) {
+                editor.putString("visitedLocation" + "\n", s);
+            }
+            editor.commit();
+
         }
         catch (Exception e) {
             Toast.makeText(this, "can not find address !", Toast.LENGTH_LONG).show();
