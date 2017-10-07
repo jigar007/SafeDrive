@@ -2,4 +2,5 @@
     <string name="app_name">"/SafeDriveSystem "</string>
     <string name="facebook_app_id">122833858423614</string>
     <string name="fb_login_protocol_scheme">c5c2a608aa9460f73cd23e43eae1ffa3</string>
+    <string name="list_of_visited_locations">Visited Locations:</string>
 </resources>

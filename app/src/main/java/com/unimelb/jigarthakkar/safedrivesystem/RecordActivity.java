@@ -1,15 +1,23 @@
 package com.unimelb.jigarthakkar.safedrivesystem;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import android.preference.PreferenceManager;
+import android.widget.Toast;
+
 
 public class RecordActivity extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
@@ -24,20 +32,15 @@ public class RecordActivity extends AppCompatActivity {
         initialLayout();
         initialListView();
         initialRecordView();
-        List<String> data = getData();
-        adapter = new ArrayAdapter<String>(RecordActivity.this, R.layout.record_item, data);
-        listView.setAdapter(adapter);
+        SharedPreferences prefs = getSharedPreferences("test", Activity.MODE_PRIVATE);
+        Log.d("tag",prefs.getString("visitedLocation", "defaultStringIfNothingFound"));
 
+        String[] separated = prefs.getString("visitedLocation", "defaultStringIfNothingFound").split("\n");
 
-    }
-
-    public static List<String> getData() {
-        List<String> data = new ArrayList<String>();
-        data.add("test1");
-        data.add("test2");
-        data.add("test3");
-        return data;
-
+        List<String> data = Arrays.asList(separated);
+//        adapter = new ArrayAdapter<String>(RecordActivity.this, R.layout.record_item, data);
+//        listView.setAdapter(adapter);
+        listView.setAdapter( new com.gnetspace.customlistview.CustomAdapter1(this, separated));
     }
 
     private void initialListView() {
@@ -49,7 +52,7 @@ public class RecordActivity extends AppCompatActivity {
     }
 
     private void initialRecordView() {
-        recordItem = (TextView)findViewById(R.id.textview);
+//        recordItem = (TextView)findViewById(R.id.textview);
     }
 
     @Override

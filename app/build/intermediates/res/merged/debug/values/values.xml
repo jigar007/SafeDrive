@@ -919,6 +919,7 @@
         AIzaSyAH6KIxKc8ZFGQYhKaVlTy8giDTS6Sjnyc
     </string>
     <string name="google_storage_bucket" translatable="false">safedrivesystem-4e6e0.appspot.com</string>
+    <string name="list_of_visited_locations">Visited Locations:</string>
     <string name="mr_button_content_description">Cast button</string>
     <string name="mr_cast_button_connected">Cast button. Connected</string>
     <string name="mr_cast_button_connecting">Cast button. Connecting</string>
