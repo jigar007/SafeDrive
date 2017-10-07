@@ -179,8 +179,14 @@ public class MainActivity extends FragmentActivity
         graph.getGridLabelRenderer().setGridStyle(GridLabelRenderer.GridStyle.NONE);
         graph.getGridLabelRenderer().setHorizontalLabelsVisible(false);
         graph.getGridLabelRenderer().setVerticalLabelsVisible(false);
+        graph.setTitle("current acceleration");
+        graph.setTitleColor(Color.RED);
+        graph.setTitleTextSize(100);
+
+
+        graph.setBackgroundColor(Color.argb(200, 192, 192, 192));
         series = new LineGraphSeries<>();
-        series.setColor(Color.RED);
+        series.setColor(R.color.deepblue);
         series.setThickness(5);
         graph.addSeries(series);
         // activate horizontal zooming and scrolling
@@ -199,14 +205,14 @@ public class MainActivity extends FragmentActivity
 
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getViewport().setMinX(0.1);
-        graph.getViewport().setMaxX(1.2);
+        graph.getViewport().setMaxX(5);
         //graph.getViewport().setMaxXAxisSize(100);
         //graph.getViewport().setMaxX(20);
 
         // set manual Y bounds
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setMinY(0);
-        graph.getViewport().setMaxY(10);
+        graph.getViewport().setMaxY(8);
         currentX = 0;
         // Start chart thread
         liveChartExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(1);
@@ -276,7 +282,7 @@ public class MainActivity extends FragmentActivity
              */
             aveAcce.remove(0);
             double standardDev = getStandardDev(aveAcce);
-            if ((standardDev > 10) && (msgSent == false) ) {
+            if ((standardDev > 20) && (msgSent == false) ) {
                 try {
                     // send the message
                     String phoneNo = "+61450561102";
@@ -386,9 +392,6 @@ public class MainActivity extends FragmentActivity
                 visitedAddress.add(tmp);
             }
 
-
-
-
             if (addressString.contains("Rd")) {
                 onRoad = true;
             }
@@ -478,8 +481,8 @@ public class MainActivity extends FragmentActivity
             if (!msg.getData().getString("ACCELERATION_VALUE").equals(null) && !msg.getData().getString("ACCELERATION_VALUE").equals("null")) {
                 accelerationY = (Double.parseDouble(msg.getData().getString("ACCELERATION_VALUE")));
             }
-            series.appendData(new DataPoint(currentX, accelerationY), true, 10);
-            currentX = currentX + 0.1;
+            series.appendData(new DataPoint(currentX, accelerationY), true, 100);
+            currentX = currentX + 0.05;
 
             tmp.add(accelerationY);
             Log.d("avesize", String.valueOf(aveAcce.size()));

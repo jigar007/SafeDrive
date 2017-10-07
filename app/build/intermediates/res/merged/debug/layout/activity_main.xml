@@ -12,31 +12,34 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/Map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
-        android:layout_width="368dp"
-        android:layout_height="439dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="400dp"
+        android:layout_height="800dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="0dp"
         map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintHorizontal_bias="0.936"
         map:layout_constraintLeft_toLeftOf="parent"
-        map:layout_constraintTop_toTopOf="parent"
-        map:layout_constraintVertical_bias="0.142"
-        tools:context="com.unimelb.jigarthakkar.safedrivesystem.MapsActivity"
-        android:layout_marginStart="8dp" />
+        map:layout_constraintRight_toRightOf="@+id/Profile"
+        map:layout_constraintTop_toTopOf="@+id/graph"
+        map:layout_constraintVertical_bias="0.0"
+        tools:context="com.unimelb.jigarthakkar.safedrivesystem.MapsActivity" />
 
-    <com.jjoe64.graphview.GraphView
-        android:id="@+id/graph"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        />
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="0.0"-->
-        <!--app:layout_constraintRight_toLeftOf="parent"-->
-        <!--android:layout_marginRight="-384dp" />-->
-    <!--tools:layout_editor_absoluteY="0dp"-->
-    <!--tools:layout_editor_absoluteX="8dp"-->
+
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+
+
+
+
     <Button
+
         android:id="@+id/SOS"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
@@ -48,7 +51,9 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        android:layout_marginStart="8dp" />
+        android:layout_marginStart="8dp"
+        android:drawableTop="@mipmap/ic_settings_phone_black_24dp"
+        android:background="#00000000"/>
 
     <Button
         android:id="@+id/Record"
@@ -65,7 +70,9 @@
         app:layout_constraintLeft_toRightOf="@+id/SOS"
         app:layout_constraintRight_toLeftOf="@+id/Profile"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:drawableTop="@mipmap/ic_description_black_24dp"
+        android:background="#00000000"/>
 
     <Button
         android:id="@+id/Profile"
@@ -79,7 +86,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:drawableTop="@mipmap/ic_account_circle_black_24dp"
+        android:background="#00000000"
+        />
+
+
 
 
 </android.support.constraint.ConstraintLayout>

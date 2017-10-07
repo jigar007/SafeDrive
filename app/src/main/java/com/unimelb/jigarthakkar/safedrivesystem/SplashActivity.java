@@ -28,6 +28,9 @@ public class SplashActivity extends AppCompatActivity {
 
         Boolean isLogin = preferences.getBoolean("isLogin", false);
 
+
+
+
         if(!isLogin) {
             startLoginSignupActivity();
         } else {

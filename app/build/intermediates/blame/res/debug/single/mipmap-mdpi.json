@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_settings_phone_black_24dp.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_settings_phone_black_24dp.png"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_description_black_24dp.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_description_black_24dp.png"
+    },
+    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     },
