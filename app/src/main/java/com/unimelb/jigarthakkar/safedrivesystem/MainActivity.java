@@ -17,6 +17,7 @@ import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
+import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -25,10 +26,20 @@ import android.widget.Toast;
 import android.graphics.Color;
 import android.os.Handler;
 
+import com.google.android.gms.common.api.Response;
 import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.ProtocolException;
+import java.net.URL;
+import java.util.ArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -49,8 +60,14 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.List;
 import java.util.Locale;
+
 
 //import android.location.LocationListener;
 
@@ -62,11 +79,13 @@ public class MainActivity extends FragmentActivity
         LocationListener,
         SensorEventListener
 {
+    ArrayList<Double> tmp = new ArrayList<Double>();
     private Button record;
     private Button contact;
     private Button profile;
     private boolean onRoad = false;
     private GoogleMap map;
+    private boolean msgSent = false;
     protected GoogleApiClient mGoogleApiClient;
     protected Location mLastLocation;
     protected LocationManager mLocationManager;
@@ -85,6 +104,7 @@ public class MainActivity extends FragmentActivity
 
     private final float[] mRotationMatrix = new float[9];
     private final float[] mOrientationAngles = new float[3];
+    private ArrayList<Double> aveAcce = new ArrayList<Double>();
 
     private SensorManager sensorManager;
     private LineGraphSeries<DataPoint> series;
@@ -125,7 +145,7 @@ public class MainActivity extends FragmentActivity
                 // MainActivity.this.finish();
             }
         });
-        ///
+
 
         profile = (Button)findViewById(R.id.Profile);
         profile.setOnClickListener(new View.OnClickListener() {
@@ -137,13 +157,13 @@ public class MainActivity extends FragmentActivity
         });
 
 
-        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         mMagnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
         mSensorManager.registerListener(this, mAccelerometer,
-                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
         mSensorManager.registerListener(this, mMagnetometer,
-                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
 
         contact = (Button)findViewById(R.id.SOS);
         contact.setOnClickListener(new View.OnClickListener() {
@@ -162,12 +182,26 @@ public class MainActivity extends FragmentActivity
         }
 
 
+
+
+
+
+
+
+
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
         GraphView graph = (GraphView) findViewById(R.id.graph);
+        graph.getGridLabelRenderer().setGridStyle(GridLabelRenderer.GridStyle.NONE);
+        graph.getGridLabelRenderer().setHorizontalLabelsVisible(false);
+        graph.getGridLabelRenderer().setVerticalLabelsVisible(false);
+        //graph.getViewport().setDrawBorder(true);
+
 
         series = new LineGraphSeries<>();
-        series.setColor(Color.GREEN);
+        series.setColor(Color.RED);
+        series.setThickness(5);
+
         graph.addSeries(series);
 
         // activate horizontal zooming and scrolling
@@ -183,9 +217,12 @@ public class MainActivity extends FragmentActivity
         graph.getViewport().setScrollableY(true);
         // To set a fixed manual viewport use this:
         // set manual X bounds
+
         graph.getViewport().setXAxisBoundsManual(true);
-        graph.getViewport().setMinX(0.5);
-        graph.getViewport().setMaxX(6.5);
+        graph.getViewport().setMinX(0.1);
+        graph.getViewport().setMaxX(1.2);
+        //graph.getViewport().setMaxXAxisSize(100);
+        //graph.getViewport().setMaxX(20);
 
         // set manual Y bounds
         graph.getViewport().setYAxisBoundsManual(true);
@@ -198,6 +235,11 @@ public class MainActivity extends FragmentActivity
         liveChartExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(1);
         if (liveChartExecutor != null)
             liveChartExecutor.execute(new AccelerationChart(new AccelerationChartHandler()));
+
+
+
+
+
     }
 
     @Override
@@ -233,14 +275,14 @@ public class MainActivity extends FragmentActivity
         //Toast.makeText(this, "sensor changed", Toast.LENGTH_LONG).show();
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
             float[] filtered = new float[3];
-            filtered = lowPassFilter(event.values.clone(), filtered);
-            System.arraycopy(filtered, 0, mAccelerometerReading,
+            //filtered = lowPassFilter(event.values.clone(), filtered);
+            System.arraycopy(event.values, 0, mAccelerometerReading,
                     0, mAccelerometerReading.length);
         }
         else if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
             float[] filtered = new float[3];
-            filtered = lowPassFilter(event.values.clone(), filtered);
-            System.arraycopy(filtered, 0, mMagnetometerReading,
+            //filtered = lowPassFilter(event.values.clone(), filtered);
+            System.arraycopy(event.values, 0, mMagnetometerReading,
                     0, mMagnetometerReading.length);
         }
         updateOrientationAngles();
@@ -261,6 +303,33 @@ public class MainActivity extends FragmentActivity
             }
         }
 
+        if (aveAcce.size() > 10) {
+            //ArrayList<Double> tmp = new ArrayList<Double>();
+            //tmp = getLastNElements(aveAcce, 10);
+            aveAcce.remove(0);
+            double standardDev = getStandardDev(aveAcce);
+            //Log.d("stan", String.valueOf(standardDev));
+            if ((standardDev > 10) && (msgSent == false) ) {
+                //Toast.makeText(this, "ohhhhhhhhhhhhhh", Toast.LENGTH_LONG).show();
+                try {
+                    String phoneNo = "+61450561102";
+                    String msg = "haha";
+
+                    SmsManager smsManager = SmsManager.getDefault();
+                    smsManager.sendTextMessage(phoneNo, null, msg, null, null);
+                    msgSent = true;
+                    Toast.makeText(getApplicationContext(), "Message Sent",
+                            Toast.LENGTH_LONG).show();
+                } catch (Exception ex) {
+                    Toast.makeText(getApplicationContext(),ex.getMessage().toString(),
+                            Toast.LENGTH_LONG).show();
+                    ex.printStackTrace();
+                }
+
+            }
+
+        }
+
     }
 
     @Override
@@ -276,15 +345,15 @@ public class MainActivity extends FragmentActivity
 
         sensorManager.registerListener(this,
                 sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
-                SensorManager.SENSOR_DELAY_NORMAL);
+                SensorManager.SENSOR_DELAY_FASTEST);
 
         mSensorManager = (SensorManager)getSystemService(SENSOR_SERVICE);
         mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
         mMagnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
         mSensorManager.registerListener(this, mAccelerometer,
-                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
         mSensorManager.registerListener(this, mMagnetometer,
-                SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
 
 
 
@@ -331,7 +400,7 @@ public class MainActivity extends FragmentActivity
     @Override
     public void onLocationChanged(Location location) {
         String whetherOnRoad = "on road : " + Boolean.toString(onRoad);
-        Toast.makeText(this, whetherOnRoad, Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, whetherOnRoad, Toast.LENGTH_LONG).show();
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         double latitude = latLng.latitude;
         double longitude = latLng.longitude;
@@ -344,13 +413,13 @@ public class MainActivity extends FragmentActivity
         try {
             List address = geocoder.getFromLocation(latitude, longitude, 1);
             String addressString = address.toString();
-            if (addressString.contains("Road")) {
+            if (addressString.contains("Rd")) {
                 onRoad = true;
             }
 
             else {onRoad = false;}
 
-            Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
+            //Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
             SharedPreferences sharedPreferences = getSharedPreferences("test", Activity.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("currentLocation", addressString);
@@ -412,6 +481,25 @@ public class MainActivity extends FragmentActivity
 
     }
 
+    public double sumArray(ArrayList<Double> x) {
+        if (x == null) {return 0;}
+        double res = 0;
+        for (double each : x) {
+            res += each;
+        }
+        return res;
+    }
+
+
+    public double getStandardDev(ArrayList<Double> x) {
+        double ave = sumArray(x) / x.size();
+        double tmp = 0;
+        for (double each : x) {
+            tmp += Math.pow((each - ave), 2);
+        }
+        return (tmp / x.size());
+    }
+
     private class AccelerationChartHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
@@ -421,7 +509,15 @@ public class MainActivity extends FragmentActivity
             }
 
             series.appendData(new DataPoint(currentX, accelerationY), true, 10);
-            currentX = currentX + 1;
+            currentX = currentX + 0.1;
+
+            tmp.add(accelerationY);
+            Log.d("avesize", String.valueOf(aveAcce.size()));
+            if (tmp.size() > 10) {
+                aveAcce.add(sumArray(tmp));
+            }
+
+
         }
     }
 
@@ -436,6 +532,8 @@ public class MainActivity extends FragmentActivity
         double acceleration = Math.sqrt(accelerationSquareRoot);
 
         accelerationQueue.offer(acceleration);
+
+
     }
 
     private class AccelerationChart implements Runnable {
@@ -448,11 +546,13 @@ public class MainActivity extends FragmentActivity
 
         @Override
         public void run() {
+
             while (drawChart) {
                 Double accelerationY;
                 try {
-                    Thread.sleep(300); // Speed up the X axis
+                    Thread.sleep(120); // Speed up the X axis
                     accelerationY = accelerationQueue.poll();
+
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     continue;
@@ -462,7 +562,7 @@ public class MainActivity extends FragmentActivity
 
                 // currentX value will be excced the limit of double type range
                 // To overcome this problem comment of this line
-                // currentX = (System.currentTimeMillis() / 1000) * 8 + 0.6;
+                 //currentX = (System.currentTimeMillis() / 1000) * 8 + 0.6;
 
                 Message msgObj = handler.obtainMessage();
                 Bundle b = new Bundle();
@@ -472,6 +572,11 @@ public class MainActivity extends FragmentActivity
             }
         }
     }
+
+
+
+
+
 
 }
 
