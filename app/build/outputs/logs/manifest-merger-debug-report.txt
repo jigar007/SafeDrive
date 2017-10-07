@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:2:1-73:12
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:2:1-77:12
 	package
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:3:5-55
 		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
@@ -24,6 +24,8 @@ MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/robin/.android/build-cache/5e56f94d5dad353f2dd2466d84f678e41d026b2a/output/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/robin/.android/build-cache/cfc7f4a2ea3b62b0466e52c28d70da7af1af426c/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/AndroidManifest.xml:20:5-43
@@ -63,8 +65,6 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/robin/
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/robin/.android/build-cache/73376d077ab509aebe771df9f76643dfc3d4bcdc/output/AndroidManifest.xml:3:5-43
 MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/robin/.android/build-cache/cfc7f4a2ea3b62b0466e52c28d70da7af1af426c/output/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/robin/.android/build-cache/ba88760922ba3aaf766f1b946fad2b09074cb0c5/output/AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:17:5-43
 MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/AndroidManifest.xml:24:5-26:41
@@ -148,12 +148,13 @@ ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:22:5-
 	android:name
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:22:19-63
 application
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:24:5-71:19
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:24:5-75:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robin/.android/build-cache/e2c9fd226f5e11592cccb0d859b6dd9cf52b0056/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services:11.0.4] /Users/robin/.android/build-cache/455b8f4422617913ca2e372b4413c4bd2ec2c12d/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:26:5-19
 MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/AndroidManifest.xml:22:5-20
@@ -186,7 +187,6 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/robin/
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/robin/.android/build-cache/73376d077ab509aebe771df9f76643dfc3d4bcdc/output/AndroidManifest.xml:4:5-19
 MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:11:5-31:19
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/robin/.android/build-cache/ba88760922ba3aaf766f1b946fad2b09074cb0c5/output/AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:18:5-20:19
 MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/AndroidManifest.xml:28:5-29:19
@@ -212,13 +212,13 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/robin/.android/b
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/robin/.android/build-cache/10d9e33fe609284fe335c5a3b18ac0c8379d68dd/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/robin/.android/build-cache/6600538f04f5fc2badccd0e777e340699564f72d/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:27:9-41
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:27:9-32
 	android:supportsRtl
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:28:9-35
 	android:allowBackup
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:26:9-43
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:26:9-42
 	android:theme
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:29:9-59
 uses-library#com.google.android.maps
@@ -228,96 +228,100 @@ ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:30:9-
 	android:name
 		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:31:13-51
 activity#com.unimelb.jigarthakkar.safedrivesystem.SplashActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:33:9-40:20
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:34:9-42:20
 	android:theme
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:34:13-48
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:36:13-48
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:33:19-49
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:35:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:35:13-39:29
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:36:17-69
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:36:25-66
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:38:17-77
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:38:27-74
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:40:27-74
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginSignupActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:41:9-57
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:9-57
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:41:19-54
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:19-54
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:42:9-51
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:9-51
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:42:19-48
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:19-48
 activity#com.unimelb.jigarthakkar.safedrivesystem.SignupActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:9-52
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:19-49
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.MainActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:9-50
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:9-50
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:19-47
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:19-47
 activity#com.unimelb.jigarthakkar.safedrivesystem.ProfileActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:9-62
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:47:9-53
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:19-50
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:47:19-50
 activity#com.unimelb.jigarthakkar.safedrivesystem.RecordActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:9-61
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:48:9-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:19-49
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:48:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.SOSActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:47:9-58
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:49:9-49
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:47:19-46
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:49:19-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:49:9-51:55
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:51:9-53:55
 	android:value
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:51:13-52
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:53:13-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:50:13-58
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:52:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:53:9-54:54
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:54:9-56:55
 	android:value
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:54:13-52
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:56:13-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:53:20-65
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:55:13-58
 activity#com.facebook.FacebookActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:56:9-59:47
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:58:9-61:47
 MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:59:13-44
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:61:13-44
 	android:configChanges
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:57:13-113
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:60:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:56:19-63
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:59:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:60:9-69:20
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:62:9-73:20
 	android:exported
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:62:13-36
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:61:13-58
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:63:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:63:13-68:29
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:65:13-72:29
 action#android.intent.action.VIEW
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:64:17-69
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:64:25-66
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:65:17-76
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:68:17-76
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:65:27-73
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:68:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:17-78
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:69:17-78
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:27-75
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:69:27-75
 data
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:67:17-75
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:71:17-75
 	android:scheme
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:67:23-72
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:71:23-72
+activity#com.unimelb.jigarthakkar.safedrivesystem.FaceActivity
+ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:74:9-59
+	android:name
+		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:74:19-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:21:5-78
@@ -360,6 +364,24 @@ action#com.google.android.gms.appinvite.ACTION_PREVIEW
 ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:22:17-89
 	android:name
 		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:18-63
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
 ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:5:9-99
 	android:name
@@ -434,24 +456,6 @@ ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.androi
 		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:29:13-37
 	android:name
 		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:28:13-108
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:9-189
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:129-162
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:163-187
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:69-128
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:19-68
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:9-184
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:64-87
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:88-182
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:19:9-172
 	android:exported

@@ -12,11 +12,11 @@
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_description_black_24dp.png"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_settings_phone_black_24dp.png",
         "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_settings_phone_black_24dp.png"
+    },
+    {
+        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

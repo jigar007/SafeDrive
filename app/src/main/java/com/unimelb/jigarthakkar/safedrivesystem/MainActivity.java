@@ -24,6 +24,8 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.graphics.Color;
 import android.os.Handler;
+
+import com.google.android.gms.vision.face.Face;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.series.DataPoint;
@@ -63,6 +65,7 @@ public class MainActivity extends FragmentActivity
     private Button record;
     private Button contact;
     private Button profile;
+    private Button face;
     private boolean onRoad = false;
     private GoogleMap map;
     private boolean msgSent = false;
@@ -146,11 +149,21 @@ public class MainActivity extends FragmentActivity
         });
 
         // set the button to jump to ProfileActivity
+        profile = (Button)findViewById(R.id.face);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, FaceActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // set the button to jump to FaceActivity
         profile = (Button)findViewById(R.id.Profile);
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(MainActivity.this, FaceActivity.class);
                 startActivity(intent);
             }
         });
@@ -179,14 +192,15 @@ public class MainActivity extends FragmentActivity
         graph.getGridLabelRenderer().setGridStyle(GridLabelRenderer.GridStyle.NONE);
         graph.getGridLabelRenderer().setHorizontalLabelsVisible(false);
         graph.getGridLabelRenderer().setVerticalLabelsVisible(false);
-        graph.setTitle("current acceleration");
+        //graph.setTitle("current acceleration");
         graph.setTitleColor(Color.RED);
-        graph.setTitleTextSize(100);
+        //graph.setTitleTextSize(100);
 
 
-        graph.setBackgroundColor(Color.argb(200, 192, 192, 192));
+        graph.setBackgroundColor(Color.argb(50, 0, 0, 0));
         series = new LineGraphSeries<>();
-        series.setColor(R.color.deepblue);
+        //series.setColor(R.color.deepblue);
+        series.setColor(Color.BLUE);
         series.setThickness(5);
         graph.addSeries(series);
         // activate horizontal zooming and scrolling
@@ -282,7 +296,8 @@ public class MainActivity extends FragmentActivity
              */
             aveAcce.remove(0);
             double standardDev = getStandardDev(aveAcce);
-            if ((standardDev > 20) && (msgSent == false) ) {
+            //Log.d("Dev", String.valueOf(standardDev));
+            if ((standardDev > 80) && (msgSent == false) ) {
                 try {
                     // send the message
                     String phoneNo = "+61450561102";
