@@ -9,41 +9,29 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-
 import android.graphics.Color;
 import android.os.Handler;
-
-import com.google.android.gms.common.api.Response;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.GridLabelRenderer;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
-
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.ProtocolException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.concurrent.Executors;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
-
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -59,17 +47,9 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.util.List;
 import java.util.Locale;
 
-
-//import android.location.LocationListener;
 
 
 public class MainActivity extends FragmentActivity
@@ -87,33 +67,29 @@ public class MainActivity extends FragmentActivity
     private GoogleMap map;
     private boolean msgSent = false;
     protected GoogleApiClient mGoogleApiClient;
-    protected Location mLastLocation;
     protected LocationManager mLocationManager;
-    protected LocationListener mLocationListener;
     protected Location currentLocation;
     protected Marker currentMarker;
     protected LocationRequest locationRequest;
-    protected Sensor mSensor;
     private SensorManager mSensorManager;
     private Sensor mAccelerometer;
     private Sensor mMagnetometer;
     private boolean mapLoaded = false;
-    private static final float filterFactor = 0.9f;
     private final float[] mAccelerometerReading = new float[3];
     private final float[] mMagnetometerReading = new float[3];
-
     private final float[] mRotationMatrix = new float[9];
     private final float[] mOrientationAngles = new float[3];
     private ArrayList<Double> aveAcce = new ArrayList<Double>();
-
     private SensorManager sensorManager;
     private LineGraphSeries<DataPoint> series;
     private static double currentX;
     private ThreadPoolExecutor liveChartExecutor;
     private LinkedBlockingQueue<Double> accelerationQueue = new LinkedBlockingQueue<>(10);
+    private ArrayList<String> visitedAddress = new ArrayList<String>();
 
 
     protected synchronized void buildGoogleApiClient() {
+        // buile a new client instance to call google map api
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
@@ -122,50 +98,34 @@ public class MainActivity extends FragmentActivity
     }
 
     private void buildLocationRequest() {
+        // settings to get the information about the location
+
         locationRequest = new LocationRequest();
         locationRequest.setInterval(1000);
         locationRequest.setFastestInterval(1000);
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
     }
-    ///
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /*
+         *  The main activity should contain following components:
+         *  Button to jump to SOSActivity
+         *  Button to jump to RecordActivity
+         *  Button to jump to ProfileActivity
+         *  Google map, which is used for showing current location and orientation
+         *  GraphView, which is used for showing current acceleration of the car
+         *  And we need to register accelerometer and magnetic field sensor to detect the
+         *  acceleration and orientation of the user
+         */
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         SupportMapFragment fragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.Map);
         fragment.getMapAsync(MainActivity.this);
-        GoogleMap curMap = map;
-        record = (Button)findViewById(R.id.Record);
-        record.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
-                startActivity(intent);
-                // MainActivity.this.finish();
-            }
-        });
 
 
-        profile = (Button)findViewById(R.id.Profile);
-        profile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
-        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-        mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
-        mMagnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
-        mSensorManager.registerListener(this, mAccelerometer,
-                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
-        mSensorManager.registerListener(this, mMagnetometer,
-                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
-
+        // set the button to jump to SOSActivity
         contact = (Button)findViewById(R.id.SOS);
         contact.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -175,6 +135,37 @@ public class MainActivity extends FragmentActivity
             }
         });
 
+        // set the button to jump to RecordActivity
+        record = (Button)findViewById(R.id.Record);
+        record.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RecordActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // set the button to jump to ProfileActivity
+        profile = (Button)findViewById(R.id.Profile);
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        // register sensors
+        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        mAccelerometer = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        mMagnetometer = mSensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+        mSensorManager.registerListener(this, mAccelerometer,
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
+        mSensorManager.registerListener(this, mMagnetometer,
+                SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
+
+
+        // build the client instance and setting to use GoogleMap API
         buildGoogleApiClient();
         buildLocationRequest();
         currentLocation = getCurrentLocation();
@@ -182,29 +173,16 @@ public class MainActivity extends FragmentActivity
             mGoogleApiClient.connect();
         }
 
-
-
-
-
-
-
-
-
+        // initialize the GraphView
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
-
         GraphView graph = (GraphView) findViewById(R.id.graph);
         graph.getGridLabelRenderer().setGridStyle(GridLabelRenderer.GridStyle.NONE);
         graph.getGridLabelRenderer().setHorizontalLabelsVisible(false);
         graph.getGridLabelRenderer().setVerticalLabelsVisible(false);
-        //graph.getViewport().setDrawBorder(true);
-
-
         series = new LineGraphSeries<>();
         series.setColor(Color.RED);
         series.setThickness(5);
-
         graph.addSeries(series);
-
         // activate horizontal zooming and scrolling
         graph.getViewport().setScalable(true);
 
@@ -229,27 +207,22 @@ public class MainActivity extends FragmentActivity
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setMinY(0);
         graph.getViewport().setMaxY(10);
-
         currentX = 0;
-
         // Start chart thread
         liveChartExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(1);
         if (liveChartExecutor != null)
             liveChartExecutor.execute(new AccelerationChart(new AccelerationChartHandler()));
-
-
-
-
-
     }
 
     @Override
     public void onStart() {
+        // start to connect to GooglePlay service
         super.onStart();
         mGoogleApiClient.connect();
     }
 
     public void onStop() {
+        // stop connection to GooglePlay service
         super.onStop();
         if (mGoogleApiClient.isConnected()) {
             mGoogleApiClient.disconnect();
@@ -258,6 +231,7 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onConnectionFailed(ConnectionResult connectionResult) {
+        // if connection failed, print the error code
         int errorCode = connectionResult.getErrorCode();
         if (errorCode == ConnectionResult.SERVICE_MISSING) {
             Toast.makeText(this, "Connection failed !", Toast.LENGTH_LONG).show();
@@ -268,54 +242,45 @@ public class MainActivity extends FragmentActivity
     @Override
     public void onSensorChanged(SensorEvent event) {
 
-
+        /*
+         * Once the readings of the accelerometer and magnetic sensor are changed, we can calculate
+         * the current orientation of the user based on these readings.
+         * Also, if there is a sudden brake or car accident, the system would automatically send a
+         * sms message to the emergent contact to get help. this action is based on the reading of
+         * the accelerometer(standard deviation of the last 10 reading of the acceleration)
+         */
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
             getAccelerometer(event);
         }
-
-        //Toast.makeText(this, "sensor changed", Toast.LENGTH_LONG).show();
         if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-            float[] filtered = new float[3];
-            //filtered = lowPassFilter(event.values.clone(), filtered);
             System.arraycopy(event.values, 0, mAccelerometerReading,
                     0, mAccelerometerReading.length);
         }
         else if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
-            float[] filtered = new float[3];
-            //filtered = lowPassFilter(event.values.clone(), filtered);
             System.arraycopy(event.values, 0, mMagnetometerReading,
                     0, mMagnetometerReading.length);
         }
         updateOrientationAngles();
         float angle0 = mOrientationAngles[0];
-        float angle1 = mOrientationAngles[1];
-        float angle2 = mOrientationAngles[2];
-
-        float r1 = mRotationMatrix[0];
-        float r2 = mRotationMatrix[1];
-        float r3 = mRotationMatrix[2];
-
         if (mapLoaded) {
             if (mGoogleApiClient != null && currentLocation != null && currentMarker != null) {
-                //drawMarker(currentLocation);
-                //LatLng latLng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
-                //moveMap(latLng);
+                // show the orientation
                 currentMarker.setRotation((((angle0)*180/(3.14f)) * 10) / 10);
             }
         }
-
         if (aveAcce.size() > 10) {
-            //ArrayList<Double> tmp = new ArrayList<Double>();
-            //tmp = getLastNElements(aveAcce, 10);
+            /*
+             * get the last 10 reading of the accelerometer, and calculate the standard deviation,
+             * if the reading exceed the thereshold, the system would automatically send a SMS
+             * message to the emergency contact
+             */
             aveAcce.remove(0);
             double standardDev = getStandardDev(aveAcce);
-            //Log.d("stan", String.valueOf(standardDev));
             if ((standardDev > 10) && (msgSent == false) ) {
-                //Toast.makeText(this, "ohhhhhhhhhhhhhh", Toast.LENGTH_LONG).show();
                 try {
+                    // send the message
                     String phoneNo = "+61450561102";
                     String msg = "haha";
-
                     SmsManager smsManager = SmsManager.getDefault();
                     smsManager.sendTextMessage(phoneNo, null, msg, null, null);
                     msgSent = true;
@@ -340,10 +305,11 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onResume() {
+        /*
+         * if the application is activated from the background, re-register the sensor and
+         * reconnect to the GooglePlay service
+         */
         super.onResume();
-        Toast.makeText(this, "back", Toast.LENGTH_LONG).show();
-        //dd
-
         sensorManager.registerListener(this,
                 sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),
                 SensorManager.SENSOR_DELAY_FASTEST);
@@ -355,9 +321,6 @@ public class MainActivity extends FragmentActivity
                 SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
         mSensorManager.registerListener(this, mMagnetometer,
                 SensorManager.SENSOR_DELAY_FASTEST, SensorManager.SENSOR_DELAY_UI);
-
-
-
         if (!mGoogleApiClient.isConnected() && currentMarker != null) {
             mGoogleApiClient.connect();
         }
@@ -373,6 +336,7 @@ public class MainActivity extends FragmentActivity
     }
 
     private void moveMap(LatLng latLng) {
+        // move the map so that the cursor of the user would stay center in the map
         CameraPosition cameraPosition = new CameraPosition.Builder()
                 .target(latLng)
                 .zoom(17)
@@ -381,6 +345,7 @@ public class MainActivity extends FragmentActivity
     }
 
     public void drawMarker(Location location) {
+        // draw a marker on the current position on the map
         if (map != null) {
             map.clear();
             LatLng gps = new LatLng(location.getLatitude(), location.getLongitude());
@@ -388,11 +353,7 @@ public class MainActivity extends FragmentActivity
                     .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_navigation_black_24dp))
                     .flat(true)
                     .anchor(0.5f, 0.5f);
-            //.rotation(mOrientationAngles[2] * 100);
-
             currentMarker = map.addMarker(cur_op);
-
-
             map.animateCamera(CameraUpdateFactory.newLatLngZoom(gps, 12));
         }
     }
@@ -400,8 +361,11 @@ public class MainActivity extends FragmentActivity
 
     @Override
     public void onLocationChanged(Location location) {
-        String whetherOnRoad = "on road : " + Boolean.toString(onRoad);
-        //Toast.makeText(this, whetherOnRoad, Toast.LENGTH_LONG).show();
+        /*
+         * once the location is changed, we can get the current address to decide whether the user
+         * is on the road. and we refresh the map to show the current position
+         */
+
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         double latitude = latLng.latitude;
         double longitude = latLng.longitude;
@@ -409,29 +373,30 @@ public class MainActivity extends FragmentActivity
         moveMap(latLng);
         currentLocation = location;
         mapLoaded = true;
-        //
-
         Geocoder geocoder = new Geocoder(this, Locale.ENGLISH);
         try {
-            List address = geocoder.getFromLocation(latitude, longitude, 1);
-            String addressString = address.toString();
+            List<Address> address = geocoder.getFromLocation(latitude, longitude, 1);
+            String addressString = address.get(0).getAddressLine(0) + " ";
+            String city = address.get(0).getLocality() + " ";
+            String state = address.get(0).getAdminArea() + " ";
+            String country = address.get(0).getCountryName() + " ";
+
+            String tmp = addressString + city + state;
+            if (!visitedAddress.contains(tmp)) {
+                visitedAddress.add(tmp);
+            }
             if (addressString.contains("Rd")) {
                 onRoad = true;
             }
-
             else {onRoad = false;}
-
-            //Toast.makeText(this, address.toString(), Toast.LENGTH_LONG).show();
             SharedPreferences sharedPreferences = getSharedPreferences("test", Activity.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString("currentLocation", addressString);
+            editor.putString("currentLocation", addressString + city + state + country);
             editor.commit();
         }
         catch (Exception e) {
             Toast.makeText(this, "can not find address !", Toast.LENGTH_LONG).show();
         }
-
-
     }
 
     @Override
@@ -452,6 +417,8 @@ public class MainActivity extends FragmentActivity
 
 
     public Location getCurrentLocation() {
+
+        // return current location
         Location cur = null;
         if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
                 || ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
@@ -465,22 +432,12 @@ public class MainActivity extends FragmentActivity
     }
 
     public void updateOrientationAngles() {
+        // determine the orientation of the device based on the sensors
+
         mSensorManager.getRotationMatrix(mRotationMatrix, null,
                 mAccelerometerReading, mMagnetometerReading);
         float tmp = mAccelerometerReading[0];
-        String s =String.valueOf(tmp);
-        //Log.d("asd",s);
-
         mSensorManager.getOrientation(mRotationMatrix, mOrientationAngles);
-    }
-
-    public float[] lowPassFilter(float[] input, float[] output) {
-        if (input == null) {return output;}
-        for (int i = 0; i < input.length; i++) {
-            output[i] = ((output[i] + filterFactor * (input[i] - output[i])) * 10) / 10;
-        }
-        return output;
-
     }
 
     public double sumArray(ArrayList<Double> x) {
@@ -491,7 +448,6 @@ public class MainActivity extends FragmentActivity
         }
         return res;
     }
-
 
     public double getStandardDev(ArrayList<Double> x) {
         double ave = sumArray(x) / x.size();
@@ -505,11 +461,11 @@ public class MainActivity extends FragmentActivity
     private class AccelerationChartHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
+            // read the current reading of the accelerometer and draw the graph
             Double accelerationY = 0.0D;
             if (!msg.getData().getString("ACCELERATION_VALUE").equals(null) && !msg.getData().getString("ACCELERATION_VALUE").equals("null")) {
                 accelerationY = (Double.parseDouble(msg.getData().getString("ACCELERATION_VALUE")));
             }
-
             series.appendData(new DataPoint(currentX, accelerationY), true, 10);
             currentX = currentX + 0.1;
 
@@ -518,8 +474,6 @@ public class MainActivity extends FragmentActivity
             if (tmp.size() > 10) {
                 aveAcce.add(sumArray(tmp));
             }
-
-
         }
     }
 
@@ -529,19 +483,14 @@ public class MainActivity extends FragmentActivity
         double x = values[0];
         double y = values[1];
         double z = values[2];
-
         double accelerationSquareRoot = (x * x + y * y + z * z) / (SensorManager.GRAVITY_EARTH * SensorManager.GRAVITY_EARTH);
         double acceleration = Math.sqrt(accelerationSquareRoot);
-
         accelerationQueue.offer(acceleration);
-
-
     }
 
     private class AccelerationChart implements Runnable {
         private boolean drawChart = true;
         private Handler handler;
-
         public AccelerationChart(Handler handler) {
             this.handler = handler;
         }
@@ -550,6 +499,7 @@ public class MainActivity extends FragmentActivity
         public void run() {
 
             while (drawChart) {
+                // generate a new thread to draw the chart
                 Double accelerationY;
                 try {
                     Thread.sleep(120); // Speed up the X axis
@@ -561,11 +511,9 @@ public class MainActivity extends FragmentActivity
                 }
                 if (accelerationY == null)
                     continue;
-
                 // currentX value will be excced the limit of double type range
                 // To overcome this problem comment of this line
                  //currentX = (System.currentTimeMillis() / 1000) * 8 + 0.6;
-
                 Message msgObj = handler.obtainMessage();
                 Bundle b = new Bundle();
                 b.putString("ACCELERATION_VALUE", String.valueOf(accelerationY));
@@ -574,11 +522,5 @@ public class MainActivity extends FragmentActivity
             }
         }
     }
-
-
-
-
-
-
 }
 
