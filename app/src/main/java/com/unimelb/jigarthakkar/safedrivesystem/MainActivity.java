@@ -408,6 +408,7 @@ public class MainActivity extends FragmentActivity
         moveMap(latLng);
         currentLocation = location;
         mapLoaded = true;
+        //
 
         Geocoder geocoder = new Geocoder(this, Locale.ENGLISH);
         try {
