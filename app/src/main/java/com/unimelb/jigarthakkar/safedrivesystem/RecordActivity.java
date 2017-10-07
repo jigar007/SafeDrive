@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-
+import com.unimelb.jigarthakkar.safedrivesystem.CustomAdapter1;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -40,7 +40,7 @@ public class RecordActivity extends AppCompatActivity {
         List<String> data = Arrays.asList(separated);
 //        adapter = new ArrayAdapter<String>(RecordActivity.this, R.layout.record_item, data);
 //        listView.setAdapter(adapter);
-        listView.setAdapter( new com.gnetspace.customlistview.CustomAdapter1(this, separated));
+        listView.setAdapter( new CustomAdapter1(this, separated));
     }
 
     private void initialListView() {
