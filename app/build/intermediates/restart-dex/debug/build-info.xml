@@ -6,26 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507364263785"
+    timestamp="1507367086156"
     token="561832327669248428"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1137" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="174" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
-        location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/outputs/apk/app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
@@ -84,14 +84,6 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507362825071"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
         timestamp="1507362878742"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -105,6 +97,14 @@
         <artifact
             location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507367086156"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>
