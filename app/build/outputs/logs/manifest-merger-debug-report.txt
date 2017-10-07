@@ -1,598 +1,598 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:2:1-72:12
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:2:1-73:12
 	package
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:3:5-55
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robin/.android/build-cache/e2c9fd226f5e11592cccb0d859b6dd9cf52b0056/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services:11.0.4] /Users/robin/.android/build-cache/455b8f4422617913ca2e372b4413c4bd2ec2c12d/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-ads:11.0.4] /Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] /Users/robin/.android/build-cache/5e56f94d5dad353f2dd2466d84f678e41d026b2a/output/AndroidManifest.xml:3:3-41
-MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:25.2.0] /Users/robin/.android/build-cache/5c622d97135fd9949dac165b573a1d5708f0d8cd/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/robin/.android/build-cache/80c7a9494cdf29fc1a824fc76c41e30ea12bee72/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/robin/.android/build-cache/a9581561f6e70b8e22764d86c8816d28656695aa/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/robin/.android/build-cache/c95a0a18f8789cb315343a8f4dd2df079ccd6ddf/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/robin/.android/build-cache/5220993a97f4fa55b3124ef66858619272017067/output/AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-database:11.0.4] /Users/robin/.android/build-cache/ab0233a05be42439864e69335a06c141a4889a49/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:11.0.4] /Users/robin/.android/build-cache/9a6d95575f659b2e1101b47ec4fa4d105bc0c657/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/robin/.android/build-cache/5c7b93a088a18afbe237487777dd59b4f0533b80/output/AndroidManifest.xml:3:3-41
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-storage:11.0.4] /Users/robin/.android/build-cache/c3c760372aa28c997ffb7e2a5969cb2d05e23e2d/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:11.0.4] /Users/robin/.android/build-cache/36d33238bfe6e2a8134c873320cec298b5670da8/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/robin/.android/build-cache/136ba0a0f4a7b8c9b5660fa1d75574f59a383672/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/robin/.android/build-cache/18228e8d35cd819a77ea850d5cb154322d83f52c/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/robin/.android/build-cache/7d95f2aaccc3a27e1c82f723a12a8d2c92d5e310/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/robin/.android/build-cache/7178b9e286602d09c2053a4592b0c18c61b53a7c/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/robin/.android/build-cache/f54ebdb3b1bcf12bf942792605c8cb8b7d795407/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/robin/.android/build-cache/6af29934c4b6b47399c61216d6cbac14bcc45ec1/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/robin/.android/build-cache/e154d5ccc36f30ac2b78bc4ef75cce4c9f1993f6/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] /Users/robin/.android/build-cache/346e9d7aef3265275a60be8ccc12d2ecf5c55f7b/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/robin/.android/build-cache/32f399d0eedf708fc33ea1e435ff4e2c82e24a82/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/robin/.android/build-cache/c1d485057f22edd258d600d9539c32fed97e0f2e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/robin/.android/build-cache/25ddbfb606a7412e0b3c725ed9170703848f0593/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/robin/.android/build-cache/b02b6e841f0f45ecc9d5a26bbef3bfbb3c88600b/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/robin/.android/build-cache/728189c0c91c7e444d9903909a774f3f8cb3c7ea/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] /Users/robin/.android/build-cache/d703f6f540f152e531ff5952bcb60a59b1c81b82/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/robin/.android/build-cache/d115a166eef713ec3080c98a69c219c005057b23/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/robin/.android/build-cache/eb9b15a70cf4b14e524bb39925edc8d5ac907484/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/robin/.android/build-cache/c6c8e5828f4a9eebe10e5ec41b2ece5bb910c6c2/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/robin/.android/build-cache/1665a4dbb3c40577add63309de1e87bd611bd8d2/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-wallet:11.0.4] /Users/robin/.android/build-cache/b460d342c9d75d190f2b1f8163edf240a24a33ca/output/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/robin/.android/build-cache/d6b3191b51c06de22e757a8f297332073abadf64/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/robin/.android/build-cache/86263f5cf18f6c6efb053a43ad9d766754efbc0e/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/robin/.android/build-cache/73376d077ab509aebe771df9f76643dfc3d4bcdc/output/AndroidManifest.xml:3:5-43
-MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] /Users/robin/.android/build-cache/cfc7f4a2ea3b62b0466e52c28d70da7af1af426c/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/robin/.android/build-cache/ba88760922ba3aaf766f1b946fad2b09074cb0c5/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:17:5-43
-MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/robin/.android/build-cache/bc70b31e557cc455580738615033be6b426b7969/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/robin/.android/build-cache/ae680fe18ae0b5d8b1651d8a0fd69aa3b2eddb81/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/robin/.android/build-cache/c7712ecb0e0915dabea7ca765ebc4caa19728e59/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:customtabs:25.3.1] /Users/robin/.android/build-cache/670196ce60a8cc54700bb2c7d22188fcb577971c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.jjoe64:graphview:4.2.1] /Users/robin/.android/build-cache/becf5d1f5019a6441a3a5987ebe158c1e50823ff/output/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-core:11.0.4] /Users/robin/.android/build-cache/1130ba9499ec0fbf0039212f5e595429cc54ef8a/output/AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/robin/.android/build-cache/0dbd60c2d244e4c2ae2242077ca2f45345292ea9/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] /Users/robin/.android/build-cache/c1a2d77627ad274b151337d51ea1d85205874469/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/robin/.android/build-cache/ce4d6bbd3c49948a3631ad6a7d0449b68c2bb1b1/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/robin/.android/build-cache/89e7aa9ad4e7468aadf329d08623e5aa3d561711/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/robin/.android/build-cache/acc7d0db363f43e706cf9f2926d42df0308d595d/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/robin/.android/build-cache/10d9e33fe609284fe335c5a3b18ac0c8379d68dd/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/robin/.android/build-cache/6600538f04f5fc2badccd0e777e340699564f72d/output/AndroidManifest.xml:21:5-23:58
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.android\build-cache\2d0c9138e283f0c59af79f973c417215a7be6685\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services:11.0.4] C:\Users\lenovo\.android\build-cache\cf06d4c699beb7a28cb9e90dc2fe29fdd5c29d74\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] C:\Users\lenovo\.android\build-cache\12b0c2f35ee45b39d27457f81f999f3492347b94\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] C:\Users\lenovo\.android\build-cache\a887136ec5f842e6350a523f7142a3a97ab44750\output\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] C:\Users\lenovo\.android\build-cache\5752b6b644beac617e1bd95d6bbef98f6258cd77\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\lenovo\.android\build-cache\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\lenovo\.android\build-cache\2f47a2dcd894259a075b850fec15021c19f05dd3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\lenovo\.android\build-cache\f133ab47b3afc5030661e97b4d292cf695c2ded5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\lenovo\.android\build-cache\4e730480479912d4bfe228b7633f5d457b27fd33\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] C:\Users\lenovo\.android\build-cache\d5d0d3a2d18fa56cf0b349012b99ca70a38e7aab\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.0.4] C:\Users\lenovo\.android\build-cache\89520846416555b55e2653cf58b602cbd175251d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.0.4] C:\Users\lenovo\.android\build-cache\5232c1c6c3617a1e0665fb71fbcacf432771412a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.0.4] C:\Users\lenovo\.android\build-cache\c9677ec1d156949f0ff2635d248fa0d81043b3f4\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] C:\Users\lenovo\.android\build-cache\5410d7fdd7235481321f689d82e18e76a3b9a35b\output\AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.0.4] C:\Users\lenovo\.android\build-cache\c0d61ffcfe2f357e6b8ae807dfe8cd2d3c716f02\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.0.4] C:\Users\lenovo\.android\build-cache\cc9e474bfff21bd0625e07d64ca7345a3cea577e\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] C:\Users\lenovo\.android\build-cache\34751a1b67231db3914ab2fc1212a1767e82e811\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.0.4] C:\Users\lenovo\.android\build-cache\bd691cd6f0f2f58e6b3eed422613466476c469f7\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] C:\Users\lenovo\.android\build-cache\903784f9a0b47b6606a8b5cc7357a104466732ce\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\lenovo\.android\build-cache\5cdc17f5e679e8142ab1855d4478b5211cc3ae41\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] C:\Users\lenovo\.android\build-cache\0c10a8b61e75814dbc9f8fcb66edbeea41ddacbd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] C:\Users\lenovo\.android\build-cache\a888d2715fd6aece1c8ec97d12f830451d550a99\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] C:\Users\lenovo\.android\build-cache\eaa328fc5440c1090c6d8e58ef971b96687eceaa\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.0.4] C:\Users\lenovo\.android\build-cache\0f23b8f638fa6359991ff79c0a3ba51a4d875652\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] C:\Users\lenovo\.android\build-cache\0cec63d0ef13c3d2467764ed892c35c13c0f9b8d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] C:\Users\lenovo\.android\build-cache\1dce9a93c0eec56f5a2e267c0431432bfcc83f1a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.0.4] C:\Users\lenovo\.android\build-cache\d4b54adf762b6e87737412b3a4b6628dbd965ac6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] C:\Users\lenovo\.android\build-cache\b9dbe9e6da82bbe7bb469a7b794342b79de6f34e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\lenovo\.android\build-cache\420b47cab7cc8575eba14c4f6f6f9ce94c70f590\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.0.4] C:\Users\lenovo\.android\build-cache\66e38c2ce386b349853d361ec8b116b43b46b289\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] C:\Users\lenovo\.android\build-cache\68ba5aa0e8b9a86265bfa92da45ab1c0ee09f6f3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\1e7fd3fd0d74bdc295fee91b06c6c71e766565df\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] C:\Users\lenovo\.android\build-cache\61144b4fb8fd87eba6d6442df2cfa76637bb5630\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] C:\Users\lenovo\.android\build-cache\164f5e1bc690b2d91bedbebd789a112356be0bf4\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.0.4] C:\Users\lenovo\.android\build-cache\df5c0a5f38449f8b9911aaa719cbe255b2bc3291\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] C:\Users\lenovo\.android\build-cache\224beb21de6bb1a32dcf27aad5b18cd460cc5874\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\lenovo\.android\build-cache\957fe71a36754aa47fb33fdf3404a3f161642f0b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\lenovo\.android\build-cache\ca313653d0049c9ce71b4d0c59588dc17b22fe9a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] C:\Users\lenovo\.android\build-cache\96dedebcdb841598c92e39cbeeb8c4e797265a2d\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\lenovo\.android\build-cache\7014f37146234ef66bfa38beb7d2df12bc56c96f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\lenovo\.android\build-cache\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\7319868b20da5791922d1551571d242c630539da\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6dcf133ecfb0c48b19939e35d03bfd49ad629aa5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\da3dc725c915d06edd18daf8f2fff8b63546b66d\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lenovo\.android\build-cache\43e1ddf45868626768475014d4f5fda7e8e4130b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\lenovo\.android\build-cache\31837b177123682e1ba93358694482b50ad359fe\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\lenovo\.android\build-cache\8fc8f63b33afee559b756868f3463a45e7714a03\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\lenovo\.android\build-cache\e9c73c1d6e93fff85583dd413ce5b9ba44d6a325\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\lenovo\.android\build-cache\7c6b9158f952d7a2f69a6ba84847192089146acf\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\b148ddd536c82087161c86a6872f4bc411bf1e43\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\35a2fc48cbc2b6f773dc2dba48f46844aa1613cd\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\3c1ed0c790a15f7a34cddc4f3aba92f12e44514d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ba9fd80506a85e8634cceaee19f44891469f0bbd\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\e996e88ddbfcfd21965a526845b1f717a791d28e\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\cb48d5462ec8e876bb1f00de30f6369c4a0ff1fb\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:8:9-34
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/robin/.android/build-cache/5220993a97f4fa55b3124ef66858619272017067/output/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/robin/.android/build-cache/f54ebdb3b1bcf12bf942792605c8cb8b7d795407/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/robin/.android/build-cache/e154d5ccc36f30ac2b78bc4ef75cce4c9f1993f6/output/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/robin/.android/build-cache/eb9b15a70cf4b14e524bb39925edc8d5ac907484/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:20:5-66
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] C:\Users\lenovo\.android\build-cache\89520846416555b55e2653cf58b602cbd175251d\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] C:\Users\lenovo\.android\build-cache\0c10a8b61e75814dbc9f8fcb66edbeea41ddacbd\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] C:\Users\lenovo\.android\build-cache\eaa328fc5440c1090c6d8e58ef971b96687eceaa\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\1e7fd3fd0d74bdc295fee91b06c6c71e766565df\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:12:5-81
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:13:5-75
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:13:5-75
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:13:22-72
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:13:22-72
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:14:5-80
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:14:22-77
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:14:22-77
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:15:5-72
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:15:5-72
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:15:22-69
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:15:22-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:16:5-79
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:18:5-81
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:18:22-78
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:18:22-78
 uses-permission#android.permission.SEND_SMS
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:19:5-67
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:19:5-67
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:19:22-64
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:19:22-64
 uses-feature#android.hardware.location.gps
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:21:5-66
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:22:5-66
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:21:19-63
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:22:19-63
 application
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:23:5-70:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/robin/.android/build-cache/e2c9fd226f5e11592cccb0d859b6dd9cf52b0056/output/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services:11.0.4] /Users/robin/.android/build-cache/455b8f4422617913ca2e372b4413c4bd2ec2c12d/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:19:5-26:19
-MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:4:5-8:19
-MERGED from [com.google.android.gms:play-services-cast:11.0.4] /Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/AndroidManifest.xml:18:5-19
-MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:25.2.0] /Users/robin/.android/build-cache/5c622d97135fd9949dac165b573a1d5708f0d8cd/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /Users/robin/.android/build-cache/80c7a9494cdf29fc1a824fc76c41e30ea12bee72/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-config:11.0.4] /Users/robin/.android/build-cache/a9581561f6e70b8e22764d86c8816d28656695aa/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-awareness:11.0.4] /Users/robin/.android/build-cache/c95a0a18f8789cb315343a8f4dd2df079ccd6ddf/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.firebase:firebase-crash:11.0.4] /Users/robin/.android/build-cache/5220993a97f4fa55b3124ef66858619272017067/output/AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] /Users/robin/.android/build-cache/5c7b93a088a18afbe237487777dd59b4f0533b80/output/AndroidManifest.xml:5:3-17
-MERGED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.android.gms:play-services-fitness:11.0.4] /Users/robin/.android/build-cache/136ba0a0f4a7b8c9b5660fa1d75574f59a383672/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-games:11.0.4] /Users/robin/.android/build-cache/18228e8d35cd819a77ea850d5cb154322d83f52c/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-drive:11.0.4] /Users/robin/.android/build-cache/7d95f2aaccc3a27e1c82f723a12a8d2c92d5e310/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.0.4] /Users/robin/.android/build-cache/7178b9e286602d09c2053a4592b0c18c61b53a7c/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/robin/.android/build-cache/f54ebdb3b1bcf12bf942792605c8cb8b7d795407/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.firebase:firebase-appindexing:11.0.4] /Users/robin/.android/build-cache/6af29934c4b6b47399c61216d6cbac14bcc45ec1/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/robin/.android/build-cache/e154d5ccc36f30ac2b78bc4ef75cce4c9f1993f6/output/AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/robin/.android/build-cache/32f399d0eedf708fc33ea1e435ff4e2c82e24a82/output/AndroidManifest.xml:5:5-19
-MERGED from [com.google.android.gms:play-services-panorama:11.0.4] /Users/robin/.android/build-cache/c1d485057f22edd258d600d9539c32fed97e0f2e/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-places:11.0.4] /Users/robin/.android/build-cache/25ddbfb606a7412e0b3c725ed9170703848f0593/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/robin/.android/build-cache/b02b6e841f0f45ecc9d5a26bbef3bfbb3c88600b/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /Users/robin/.android/build-cache/728189c0c91c7e444d9903909a774f3f8cb3c7ea/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] /Users/robin/.android/build-cache/d115a166eef713ec3080c98a69c219c005057b23/output/AndroidManifest.xml:19:5-19
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/robin/.android/build-cache/eb9b15a70cf4b14e524bb39925edc8d5ac907484/output/AndroidManifest.xml:26:5-19
-MERGED from [com.google.android.gms:play-services-vision:11.0.4] /Users/robin/.android/build-cache/c6c8e5828f4a9eebe10e5ec41b2ece5bb910c6c2/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] /Users/robin/.android/build-cache/1665a4dbb3c40577add63309de1e87bd611bd8d2/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-identity:11.0.4] /Users/robin/.android/build-cache/d6b3191b51c06de22e757a8f297332073abadf64/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-wearable:11.0.4] /Users/robin/.android/build-cache/86263f5cf18f6c6efb053a43ad9d766754efbc0e/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-location:11.0.4] /Users/robin/.android/build-cache/73376d077ab509aebe771df9f76643dfc3d4bcdc/output/AndroidManifest.xml:4:5-19
-MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:11:5-31:19
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:19:5-25:19
-MERGED from [com.google.firebase:firebase-auth:11.0.4] /Users/robin/.android/build-cache/ba88760922ba3aaf766f1b946fad2b09074cb0c5/output/AndroidManifest.xml:19:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.facebook.android:facebook-login:4.27.0] /Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:28:5-34:19
-MERGED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:28:5-43:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/robin/.android/build-cache/bc70b31e557cc455580738615033be6b426b7969/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/robin/.android/build-cache/ae680fe18ae0b5d8b1651d8a0fd69aa3b2eddb81/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/robin/.android/build-cache/c7712ecb0e0915dabea7ca765ebc4caa19728e59/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:25.3.1] /Users/robin/.android/build-cache/670196ce60a8cc54700bb2c7d22188fcb577971c/output/AndroidManifest.xml:26:5-20
-MERGED from [com.jjoe64:graphview:4.2.1] /Users/robin/.android/build-cache/becf5d1f5019a6441a3a5987ebe158c1e50823ff/output/AndroidManifest.xml:11:5-12:19
-MERGED from [com.google.firebase:firebase-core:11.0.4] /Users/robin/.android/build-cache/1130ba9499ec0fbf0039212f5e595429cc54ef8a/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:24:5-34:19
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:28:5-49:19
-MERGED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/robin/.android/build-cache/0dbd60c2d244e4c2ae2242077ca2f45345292ea9/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] /Users/robin/.android/build-cache/c1a2d77627ad274b151337d51ea1d85205874469/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/robin/.android/build-cache/ce4d6bbd3c49948a3631ad6a7d0449b68c2bb1b1/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/robin/.android/build-cache/89e7aa9ad4e7468aadf329d08623e5aa3d561711/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/robin/.android/build-cache/acc7d0db363f43e706cf9f2926d42df0308d595d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/robin/.android/build-cache/10d9e33fe609284fe335c5a3b18ac0c8379d68dd/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/robin/.android/build-cache/6600538f04f5fc2badccd0e777e340699564f72d/output/AndroidManifest.xml:29:5-20
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:24:5-71:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.android\build-cache\2d0c9138e283f0c59af79f973c417215a7be6685\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services:11.0.4] C:\Users\lenovo\.android\build-cache\cf06d4c699beb7a28cb9e90dc2fe29fdd5c29d74\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.0.4] C:\Users\lenovo\.android\build-cache\5752b6b644beac617e1bd95d6bbef98f6258cd77\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\lenovo\.android\build-cache\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] C:\Users\lenovo\.android\build-cache\2f47a2dcd894259a075b850fec15021c19f05dd3\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] C:\Users\lenovo\.android\build-cache\f133ab47b3afc5030661e97b4d292cf695c2ded5\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.0.4] C:\Users\lenovo\.android\build-cache\4e730480479912d4bfe228b7633f5d457b27fd33\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.0.4] C:\Users\lenovo\.android\build-cache\d5d0d3a2d18fa56cf0b349012b99ca70a38e7aab\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:11.0.4] C:\Users\lenovo\.android\build-cache\89520846416555b55e2653cf58b602cbd175251d\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.0.4] C:\Users\lenovo\.android\build-cache\5410d7fdd7235481321f689d82e18e76a3b9a35b\output\AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:11.0.4] C:\Users\lenovo\.android\build-cache\34751a1b67231db3914ab2fc1212a1767e82e811\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.0.4] C:\Users\lenovo\.android\build-cache\bd691cd6f0f2f58e6b3eed422613466476c469f7\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.0.4] C:\Users\lenovo\.android\build-cache\903784f9a0b47b6606a8b5cc7357a104466732ce\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] C:\Users\lenovo\.android\build-cache\5cdc17f5e679e8142ab1855d4478b5211cc3ae41\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] C:\Users\lenovo\.android\build-cache\0c10a8b61e75814dbc9f8fcb66edbeea41ddacbd\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.0.4] C:\Users\lenovo\.android\build-cache\a888d2715fd6aece1c8ec97d12f830451d550a99\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] C:\Users\lenovo\.android\build-cache\eaa328fc5440c1090c6d8e58ef971b96687eceaa\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] C:\Users\lenovo\.android\build-cache\0cec63d0ef13c3d2467764ed892c35c13c0f9b8d\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.0.4] C:\Users\lenovo\.android\build-cache\1dce9a93c0eec56f5a2e267c0431432bfcc83f1a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.0.4] C:\Users\lenovo\.android\build-cache\d4b54adf762b6e87737412b3a4b6628dbd965ac6\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.0.4] C:\Users\lenovo\.android\build-cache\b9dbe9e6da82bbe7bb469a7b794342b79de6f34e\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] C:\Users\lenovo\.android\build-cache\420b47cab7cc8575eba14c4f6f6f9ce94c70f590\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.0.4] C:\Users\lenovo\.android\build-cache\68ba5aa0e8b9a86265bfa92da45ab1c0ee09f6f3\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\1e7fd3fd0d74bdc295fee91b06c6c71e766565df\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.0.4] C:\Users\lenovo\.android\build-cache\61144b4fb8fd87eba6d6442df2cfa76637bb5630\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.0.4] C:\Users\lenovo\.android\build-cache\164f5e1bc690b2d91bedbebd789a112356be0bf4\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.0.4] C:\Users\lenovo\.android\build-cache\224beb21de6bb1a32dcf27aad5b18cd460cc5874\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\lenovo\.android\build-cache\957fe71a36754aa47fb33fdf3404a3f161642f0b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\lenovo\.android\build-cache\ca313653d0049c9ce71b4d0c59588dc17b22fe9a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:11:5-31:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\lenovo\.android\build-cache\7014f37146234ef66bfa38beb7d2df12bc56c96f\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\lenovo\.android\build-cache\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\7319868b20da5791922d1551571d242c630539da\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6dcf133ecfb0c48b19939e35d03bfd49ad629aa5\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\da3dc725c915d06edd18daf8f2fff8b63546b66d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lenovo\.android\build-cache\43e1ddf45868626768475014d4f5fda7e8e4130b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.jjoe64:graphview:4.2.1] C:\Users\lenovo\.android\build-cache\31837b177123682e1ba93358694482b50ad359fe\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.firebase:firebase-core:11.0.4] C:\Users\lenovo\.android\build-cache\8fc8f63b33afee559b756868f3463a45e7714a03\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\lenovo\.android\build-cache\e9c73c1d6e93fff85583dd413ce5b9ba44d6a325\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\lenovo\.android\build-cache\7c6b9158f952d7a2f69a6ba84847192089146acf\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\b148ddd536c82087161c86a6872f4bc411bf1e43\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\35a2fc48cbc2b6f773dc2dba48f46844aa1613cd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\3c1ed0c790a15f7a34cddc4f3aba92f12e44514d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ba9fd80506a85e8634cceaee19f44891469f0bbd\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\e996e88ddbfcfd21965a526845b1f717a791d28e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\cb48d5462ec8e876bb1f00de30f6369c4a0ff1fb\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:26:9-41
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:27:9-41
 	android:supportsRtl
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:27:9-35
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:28:9-35
 	android:allowBackup
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:25:9-43
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:26:9-43
 	android:theme
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:28:9-59
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:29:9-59
 uses-library#com.google.android.maps
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:29:9-31:40
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:required
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:30:13-51
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:31:13-51
 activity#com.unimelb.jigarthakkar.safedrivesystem.SplashActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:32:9-39:20
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:33:9-40:20
 	android:theme
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:33:13-48
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:34:13-48
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:32:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:33:19-49
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:34:13-38:29
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:35:13-39:29
 action#android.intent.action.MAIN
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:37:17-77
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:27-74
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginSignupActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:40:9-57
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:41:9-57
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:40:19-54
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:41:19-54
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:41:9-51
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:42:9-51
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:41:19-48
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:42:19-48
 activity#com.unimelb.jigarthakkar.safedrivesystem.SignupActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:42:9-52
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:9-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:42:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.MainActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:9-50
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:9-50
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:43:19-47
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:19-47
 activity#com.unimelb.jigarthakkar.safedrivesystem.ProfileActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:9-62
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:9-62
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:44:19-50
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:19-50
 activity#com.unimelb.jigarthakkar.safedrivesystem.RecordActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:9-61
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:9-61
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:45:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.SOSActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:9-58
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:9-58
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:46:19-46
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:19-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:48:9-50:55
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:49:9-51:55
 	android:value
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:50:13-52
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:51:13-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:49:13-58
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:50:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:52:9-53:54
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:53:9-54:54
 	android:value
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:53:13-52
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:54:13-52
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:52:20-65
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:53:20-65
 activity#com.facebook.FacebookActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:55:9-58:47
-MERGED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:29:9-32:66
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:56:9-59:47
+MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:58:13-44
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:59:13-44
 	android:configChanges
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:56:13-113
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:57:13-114
 	android:theme
-		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:55:19-63
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:56:19-63
 activity#com.facebook.CustomTabActivity
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:59:9-68:20
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:60:9-69:20
 	android:exported
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:61:13-36
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:60:13-58
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:61:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:62:13-67:29
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:63:13-68:29
 action#android.intent.action.VIEW
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:63:17-69
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:64:17-69
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:63:25-66
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:64:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:64:17-76
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:65:17-76
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:64:27-73
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:65:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:65:17-78
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:17-78
 	android:name
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:65:27-75
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:27-75
 data
-ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:17-75
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:67:17-75
 	android:scheme
-		ADDED from /Users/robin/Desktop/SafeDrive/app/src/main/AndroidManifest.xml:66:23-72
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:67:23-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-nearby:11.0.4] /Users/robin/.android/build-cache/32f399d0eedf708fc33ea1e435ff4e2c82e24a82/output/AndroidManifest.xml:4:5-78
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/robin/.android/build-cache/eb9b15a70cf4b14e524bb39925edc8d5ac907484/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.0.4] C:\Users\lenovo\.android\build-cache\0cec63d0ef13c3d2467764ed892c35c13c0f9b8d\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\1e7fd3fd0d74bdc295fee91b06c6c71e766565df\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:20:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:25:9-232
+ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:25:72-181
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:25:182-230
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] /Users/robin/.android/build-cache/6a7bfa857db0b96717c938a39643d8fda2d75e32/output/AndroidManifest.xml:25:19-71
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:25:19-71
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /Users/robin/.android/build-cache/eb9b15a70cf4b14e524bb39925edc8d5ac907484/output/AndroidManifest.xml:24:5-67
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:21:5-67
+ADDED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\1e7fd3fd0d74bdc295fee91b06c6c71e766565df\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.android.gms:play-services-analytics:11.0.4] /Users/robin/.android/build-cache/445078b8fe5488fa7dcb14d2c920b4fe7392dc0b/output/AndroidManifest.xml:24:22-65
+		ADDED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:24:22-65
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:20:9-25:20
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:20:51-74
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:20:75-121
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:20:19-50
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:21:13-24:29
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:22:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] /Users/robin/.android/build-cache/870974b704a024dcb5c63833519e96cba3af9c36/output/AndroidManifest.xml:22:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:22:25-87
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
-ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:5:9-99
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:5:9-99
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:5:19-97
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:5:19-97
 service#com.google.android.gms.cast.framework.media.MediaNotificationService
-ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:6:9-103
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:6:9-103
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:6:18-101
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:6:18-101
 service#com.google.android.gms.cast.framework.ReconnectionService
-ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:7:9-92
+ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:7:9-92
 	android:name
-		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] /Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/AndroidManifest.xml:7:18-90
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:7:18-90
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:23:18-87
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:11.0.4] /Users/robin/.android/build-cache/0bbc9b266649c20b912bbf11e21780e8ead38def/output/AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:11.0.4] C:\Users\lenovo\.android\build-cache\ad5761b70be1b406fb9672a8b3a9789d221edcea\output\AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/robin/.android/build-cache/f54ebdb3b1bcf12bf942792605c8cb8b7d795407/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /Users/robin/.android/build-cache/e154d5ccc36f30ac2b78bc4ef75cce4c9f1993f6/output/AndroidManifest.xml:20:5-81
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:22:5-81
+ADDED from [com.google.android.gms:play-services-gcm:11.0.4] C:\Users\lenovo\.android\build-cache\0c10a8b61e75814dbc9f8fcb66edbeea41ddacbd\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] C:\Users\lenovo\.android\build-cache\eaa328fc5440c1090c6d8e58ef971b96687eceaa\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:11.0.4] /Users/robin/.android/build-cache/f54ebdb3b1bcf12bf942792605c8cb8b7d795407/output/AndroidManifest.xml:20:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:11.0.4] C:\Users\lenovo\.android\build-cache\0c10a8b61e75814dbc9f8fcb66edbeea41ddacbd\output\AndroidManifest.xml:20:22-79
 service#com.google.android.gms.tagmanager.TagManagerService
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:24:9-134
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:24:9-134
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:24:110-132
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:24:85-109
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:24:18-84
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:24:18-84
 activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
-ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:25:9-32:20
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:25:94-117
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:25:94-117
 	android:noHistory
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:25:118-142
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:25:118-142
 	android:name
-		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /Users/robin/.android/build-cache/11ee46243475aaaf3eaae7e2c3095eb133f8f974/output/AndroidManifest.xml:25:19-93
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] C:\Users\lenovo\.android\build-cache\5e08e95e884c687fc841a30ab0d96d71ec6ee2f2\output\AndroidManifest.xml:25:19-93
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /Users/robin/.android/build-cache/2ac5f4deac8ef06dbbd0dd0a7c2370ac7c3627a4/output/AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:21:52-75
 activity#com.microsoft.windowsazure.mobileservices.authentication.RedirectUrlActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:12:9-23:20
+ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:12:9-23:20
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:14:13-36
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:13:13-104
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:13:13-104
 activity#com.microsoft.windowsazure.mobileservices.authentication.CustomTabsIntermediateActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:24:9-26:40
+ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:26:13-37
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:25:13-115
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:25:13-115
 activity#com.microsoft.windowsazure.mobileservices.authentication.CustomTabsLoginActivity
-ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:27:9-30:47
+ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:27:9-30:47
 	android:launchMode
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:30:13-44
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:30:13-44
 	android:exported
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:29:13-37
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] /Users/robin/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/AndroidManifest.xml:28:13-108
+		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:28:13-108
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:9-189
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:129-162
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:163-187
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:69-128
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:20:19-68
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:9-184
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:64-87
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:88-182
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] /Users/robin/.android/build-cache/82c74f6253c386c3f668ec92df501de8379895e1/output/AndroidManifest.xml:24:18-63
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:19:19-85
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-common:4.27.0] /Users/robin/.android/build-cache/9140e2b868a9002062bc2d111bcca32b64abdd1c/output/AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:39:9-42:40
+ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:39:9-42:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:41:13-72
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:41:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:42:13-37
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.27.0] /Users/robin/.android/build-cache/4a93e6584f92f8e0a9b358fef3701186303f502e/output/AndroidManifest.xml:40:13-70
+		ADDED from [com.facebook.android:facebook-core:4.27.0] C:\Users\lenovo\.android\build-cache\bf4c1e82d6baec0e5ac340cd420f25edef81251c\output\AndroidManifest.xml:40:13-70
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/robin/.android/build-cache/bc70b31e557cc455580738615033be6b426b7969/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/robin/.android/build-cache/ae680fe18ae0b5d8b1651d8a0fd69aa3b2eddb81/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/robin/.android/build-cache/c7712ecb0e0915dabea7ca765ebc4caa19728e59/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.1] /Users/robin/.android/build-cache/670196ce60a8cc54700bb2c7d22188fcb577971c/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/robin/.android/build-cache/c1a2d77627ad274b151337d51ea1d85205874469/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/robin/.android/build-cache/ce4d6bbd3c49948a3631ad6a7d0449b68c2bb1b1/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/robin/.android/build-cache/89e7aa9ad4e7468aadf329d08623e5aa3d561711/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/robin/.android/build-cache/acc7d0db363f43e706cf9f2926d42df0308d595d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/robin/.android/build-cache/10d9e33fe609284fe335c5a3b18ac0c8379d68dd/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/robin/.android/build-cache/6600538f04f5fc2badccd0e777e340699564f72d/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\7319868b20da5791922d1551571d242c630539da\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\lenovo\.android\build-cache\6dcf133ecfb0c48b19939e35d03bfd49ad629aa5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\lenovo\.android\build-cache\da3dc725c915d06edd18daf8f2fff8b63546b66d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\lenovo\.android\build-cache\43e1ddf45868626768475014d4f5fda7e8e4130b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\lenovo\.android\build-cache\b148ddd536c82087161c86a6872f4bc411bf1e43\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\lenovo\.android\build-cache\35a2fc48cbc2b6f773dc2dba48f46844aa1613cd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\lenovo\.android\build-cache\3c1ed0c790a15f7a34cddc4f3aba92f12e44514d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.android\build-cache\ba9fd80506a85e8634cceaee19f44891469f0bbd\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\e996e88ddbfcfd21965a526845b1f717a791d28e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\cb48d5462ec8e876bb1f00de30f6369c4a0ff1fb\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\lenovo\.android\build-cache\5a43987ed754d1a0f3da85f95489966492f82be9\output\AndroidManifest.xml:26:9-47
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:27:162-184
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:27:185-208
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /Users/robin/.android/build-cache/0990b6fd4bcb39105d7565ce1e384a94b7fb6fbc/output/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] C:\Users\lenovo\.android\build-cache\37539f37cce104a721319d19384a639bfa78b6aa\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:32:16-87
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:33:7-197
+ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:33:7-197
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:33:148-170
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:33:171-195
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:33:91-147
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:11.0.4] /Users/robin/.android/build-cache/6aa4543113e670061c0dd3ac24410e9e6182aee8/output/AndroidManifest.xml:33:16-90
+		ADDED from [com.google.firebase:firebase-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\6aa95ccad2071390e44c58838d29463c2f53b9c8\output\AndroidManifest.xml:33:16-90
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:11.0.4] /Users/robin/.android/build-cache/c7fc6789f175babca09ca503fe75dc5ae3c5c26a/output/AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:11.0.4] C:\Users\lenovo\.android\build-cache\30282f60fc0abd772e64a047f82f4704b1729096\output\AndroidManifest.xml:45:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:11.0.4] /Users/robin/.android/build-cache/272944e76b348a0a398f8bf7a47343a87fef8893/output/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.0.4] C:\Users\lenovo\.android\build-cache\20c1d41acb28c88b85203211ebff2e1abc3c0076\output\AndroidManifest.xml:6:79-143
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\lenovo\.android\build-cache\7c6b9158f952d7a2f69a6ba84847192089146acf\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\lenovo\.android\build-cache\7c6b9158f952d7a2f69a6ba84847192089146acf\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\lenovo\.android\build-cache\7c6b9158f952d7a2f69a6ba84847192089146acf\output\AndroidManifest.xml:20:20-65

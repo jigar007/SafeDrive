@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "outputFile": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/b460d342c9d75d190f2b1f8163edf240a24a33ca/output/res/values-en-rSG/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\df5c0a5f38449f8b9911aaa719cbe255b2bc3291\\output\\res\\values-en-rSG\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

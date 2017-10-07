@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml",
+        "outputFile": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 195
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 302
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 425
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 518
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 700
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 797
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 905
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 981
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1057
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1231
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1327
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1422
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1519
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1614
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1714
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1827
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 1921
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 1996
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -391,7 +391,7 @@
                     "endOffset": 2085
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -410,7 +410,7 @@
                     "endOffset": 2172
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -429,7 +429,7 @@
                     "endOffset": 2275
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -448,7 +448,7 @@
                     "endOffset": 2354
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -467,7 +467,7 @@
                     "endOffset": 2477
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -486,7 +486,7 @@
                     "endOffset": 2582
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -505,7 +505,7 @@
                     "endOffset": 2687
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -524,7 +524,7 @@
                     "endOffset": 2797
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -543,7 +543,7 @@
                     "endOffset": 2893
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -562,7 +562,7 @@
                     "endOffset": 2993
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -581,7 +581,7 @@
                     "endOffset": 3067
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -600,7 +600,7 @@
                     "endOffset": 3149
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -619,7 +619,7 @@
                     "endOffset": 3231
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -638,7 +638,7 @@
                     "endOffset": 3339
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -657,7 +657,7 @@
                     "endOffset": 3410
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -676,7 +676,7 @@
                     "endOffset": 3540
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5752b6b644beac617e1bd95d6bbef98f6258cd77\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -695,7 +695,7 @@
                     "endOffset": 3672
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5752b6b644beac617e1bd95d6bbef98f6258cd77\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -714,7 +714,7 @@
                     "endOffset": 3764
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/5d9a78484f6c0623c86b57472721831975aaa790/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5752b6b644beac617e1bd95d6bbef98f6258cd77\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -733,7 +733,7 @@
                     "endOffset": 3836
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 0,
@@ -752,7 +752,7 @@
                     "endOffset": 3907
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 0,
@@ -771,7 +771,7 @@
                     "endOffset": 3980
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 0,
@@ -790,7 +790,7 @@
                     "endOffset": 4061
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 0,
@@ -809,7 +809,7 @@
                     "endOffset": 4142
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 0,
@@ -828,7 +828,7 @@
                     "endOffset": 4223
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 0,
@@ -847,7 +847,7 @@
                     "endOffset": 4304
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 0,
@@ -866,7 +866,7 @@
                     "endOffset": 4385
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 0,
@@ -885,7 +885,7 @@
                     "endOffset": 4456
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 0,
@@ -904,7 +904,7 @@
                     "endOffset": 4543
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 0,
@@ -923,7 +923,7 @@
                     "endOffset": 4637
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 0,
@@ -942,7 +942,7 @@
                     "endOffset": 4732
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 0,
@@ -961,7 +961,7 @@
                     "endOffset": 4841
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 0,
@@ -980,7 +980,7 @@
                     "endOffset": 4983
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 0,
@@ -999,7 +999,7 @@
                     "endOffset": 5075
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 0,
@@ -1018,7 +1018,7 @@
                     "endOffset": 5166
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 0,
@@ -1037,7 +1037,7 @@
                     "endOffset": 5264
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 0,
@@ -1056,7 +1056,7 @@
                     "endOffset": 5339
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/178397f18a9c636207b68a53a9c725bb8050c54d/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 0,
@@ -1075,7 +1075,7 @@
                     "endOffset": 5475
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1094,7 +1094,7 @@
                     "endOffset": 5576
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1113,7 +1113,7 @@
                     "endOffset": 5687
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1132,7 +1132,7 @@
                     "endOffset": 5796
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1151,7 +1151,7 @@
                     "endOffset": 5876
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1170,7 +1170,7 @@
                     "endOffset": 5958
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1189,7 +1189,7 @@
                     "endOffset": 6034
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1208,7 +1208,7 @@
                     "endOffset": 6119
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1227,7 +1227,7 @@
                     "endOffset": 6204
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1246,7 +1246,7 @@
                     "endOffset": 6312
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1265,7 +1265,7 @@
                     "endOffset": 6416
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1284,7 +1284,7 @@
                     "endOffset": 6502
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1303,7 +1303,7 @@
                     "endOffset": 6588
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1322,7 +1322,7 @@
                     "endOffset": 6679
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1341,7 +1341,7 @@
                     "endOffset": 6788
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1360,7 +1360,7 @@
                     "endOffset": 6866
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1379,7 +1379,7 @@
                     "endOffset": 6945
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1398,7 +1398,7 @@
                     "endOffset": 7068
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1417,7 +1417,7 @@
                     "endOffset": 7161
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1436,7 +1436,7 @@
                     "endOffset": 7256
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1455,7 +1455,7 @@
                     "endOffset": 7362
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1474,7 +1474,7 @@
                     "endOffset": 7456
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -1493,7 +1493,7 @@
                     "endOffset": 7556
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/7225b1b4019543af2b90e4614141a529acd2a388/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -1512,7 +1512,7 @@
                     "endOffset": 7659
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1531,7 +1531,7 @@
                     "endOffset": 7819
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -1550,7 +1550,7 @@
                     "endOffset": 7936
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -1569,7 +1569,7 @@
                     "endOffset": 8040
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -1588,7 +1588,7 @@
                     "endOffset": 8206
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -1607,7 +1607,7 @@
                     "endOffset": 8324
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -1626,7 +1626,7 @@
                     "endOffset": 8448
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -1645,7 +1645,7 @@
                     "endOffset": 8610
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/4174912b6ba390c1529c6a0edbd6ccbf16469221/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\7c6b9158f952d7a2f69a6ba84847192089146acf\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -1664,7 +1664,7 @@
                     "endOffset": 8779
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -1683,7 +1683,7 @@
                     "endOffset": 8882
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -1702,7 +1702,7 @@
                     "endOffset": 9042
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -1721,7 +1721,7 @@
                     "endOffset": 9159
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1740,7 +1740,7 @@
                     "endOffset": 9320
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1759,7 +1759,7 @@
                     "endOffset": 9458
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1778,7 +1778,7 @@
                     "endOffset": 9544
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1797,7 +1797,7 @@
                     "endOffset": 9631
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1816,7 +1816,7 @@
                     "endOffset": 9734
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/73d1ae7646aad48c9f2e058dae0b620139625341/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\0d0f95644f990ba86a84daf3455ded30adfda8a1\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1835,7 +1835,7 @@
                     "endOffset": 9827
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1854,7 +1854,7 @@
                     "endOffset": 9919
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1873,7 +1873,7 @@
                     "endOffset": 10012
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1892,7 +1892,7 @@
                     "endOffset": 10108
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1911,7 +1911,7 @@
                     "endOffset": 10194
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1930,7 +1930,7 @@
                     "endOffset": 10272
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1949,7 +1949,7 @@
                     "endOffset": 10359
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1968,7 +1968,7 @@
                     "endOffset": 10453
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1987,7 +1987,7 @@
                     "endOffset": 10546
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2006,7 +2006,7 @@
                     "endOffset": 10636
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2025,7 +2025,7 @@
                     "endOffset": 10724
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2044,7 +2044,7 @@
                     "endOffset": 10812
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2063,7 +2063,7 @@
                     "endOffset": 10910
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2082,7 +2082,7 @@
                     "endOffset": 11008
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2101,7 +2101,7 @@
                     "endOffset": 11089
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2120,7 +2120,7 @@
                     "endOffset": 11168
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2139,7 +2139,7 @@
                     "endOffset": 11250
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2158,7 +2158,7 @@
                     "endOffset": 11341
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2177,7 +2177,7 @@
                     "endOffset": 11423
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2196,7 +2196,7 @@
                     "endOffset": 11512
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/a103667494af9f5731bb0e0b09d5eb096a910d41/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2215,7 +2215,7 @@
                     "endOffset": 11607
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/25ddbfb606a7412e0b3c725ed9170703848f0593/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\d4b54adf762b6e87737412b3a4b6628dbd965ac6\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -2234,7 +2234,7 @@
                     "endOffset": 11699
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/25ddbfb606a7412e0b3c725ed9170703848f0593/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\d4b54adf762b6e87737412b3a4b6628dbd965ac6\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -2253,7 +2253,7 @@
                     "endOffset": 11764
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -2272,7 +2272,7 @@
                     "endOffset": 11843
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -2291,7 +2291,7 @@
                     "endOffset": 11907
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -2310,7 +2310,7 @@
                     "endOffset": 11971
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -2329,7 +2329,7 @@
                     "endOffset": 12039
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -2348,7 +2348,7 @@
                     "endOffset": 12114
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/8194adac9627e19debd10ee45f6b259537be8bf9/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\12b0c2f35ee45b39d27457f81f999f3492347b94\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -2367,7 +2367,7 @@
                     "endOffset": 12192
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2386,7 +2386,7 @@
                     "endOffset": 12293
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/values-zh-rTW/values-zh-rTW.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\values-zh-rTW\\values-zh-rTW.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2405,7 +2405,7 @@
                     "endOffset": 12394
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/b460d342c9d75d190f2b1f8163edf240a24a33ca/output/res/values-zh-rTW/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\df5c0a5f38449f8b9911aaa719cbe255b2bc3291\\output\\res\\values-zh-rTW\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

@@ -172,8 +172,7 @@
             android:text="Call Insurance"
             android:visibility="visible"
             android:textStyle="bold"
-            android:textColor = "#363636"
-            android:focusableInTouchMode="false"/>
+            android:textColor = "#363636"/>
 
 
         <ImageButton

@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="azure-mobile-android-3.2.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/6e5f03ea7d55a7f657a8a1dc68d8c3fd8641bb94/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/16e1508edc71594105f51245f84c9a78009ec558/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/16e1508edc71594105f51245f84c9a78009ec558/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

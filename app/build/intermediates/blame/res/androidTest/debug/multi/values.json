@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/robin/.android/build-cache/1d8bec5ecd6d660a43f47d9fac668bb783ea81d0/output/res/values/values.xml",
+                    "file": "C:\\Users\\lenovo\\.android\\build-cache\\6a22b0050f161a8740017c348d7c94f481604371\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

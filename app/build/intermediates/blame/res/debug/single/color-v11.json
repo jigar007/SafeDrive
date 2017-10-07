@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/robin/.android/build-cache/0ce813468c420f64374baa8fbabcfdee5848278b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]
