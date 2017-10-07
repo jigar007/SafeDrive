@@ -42,10 +42,10 @@ public class LoginSignupActivity extends AppCompatActivity {
         });
 
         RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.main);
-        AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
-        animationDrawable.setEnterFadeDuration(1250);
-        animationDrawable.setExitFadeDuration(2500);
-        animationDrawable.start();
+        //AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
+        //animationDrawable.setEnterFadeDuration(1250);
+        //animationDrawable.setExitFadeDuration(2500);
+        //animationDrawable.start();
     }
 
 }

@@ -86,10 +86,12 @@ public class SignupActivity extends AppCompatActivity {
         editor = shared.edit();
 
         RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.signup);
+        /*
         AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
         animationDrawable.setEnterFadeDuration(1250);
         animationDrawable.setExitFadeDuration(2500);
         animationDrawable.start();
+        */
 
         try {
             // Create the Mobile Service Client instance

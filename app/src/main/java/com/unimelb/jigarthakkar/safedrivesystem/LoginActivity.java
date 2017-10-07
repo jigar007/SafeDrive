@@ -145,10 +145,12 @@ public class LoginActivity extends AppCompatActivity {
         }).addApi(Auth.GOOGLE_SIGN_IN_API,gso).build();
 
         RelativeLayout relativeLayout = (RelativeLayout)findViewById(R.id.login);
+        /*
         AnimationDrawable animationDrawable = (AnimationDrawable) relativeLayout.getBackground();
         animationDrawable.setEnterFadeDuration(1250);
         animationDrawable.setExitFadeDuration(2500);
         animationDrawable.start();
+        */
 
 
         try {
