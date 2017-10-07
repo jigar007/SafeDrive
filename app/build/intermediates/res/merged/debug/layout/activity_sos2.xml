@@ -12,84 +12,180 @@
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@mipmap/ic">
 
 
-        <Button
-            android:id="@+id/police"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
+
+        <ImageButton
+            android:id="@+id/callfamily"
+            android:layout_width="154dp"
+            android:layout_height="108dp"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="18dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="210dp"
+            android:background="@mipmap/callfamilyt"
+            android:text="call family"
+            android:textColor="#E8E8E8"
+            android:textSize="20dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
+        <ImageButton
+            android:id="@+id/callinsurance"
+            android:layout_width="156dp"
+            android:layout_height="101dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="350dp"
+            android:background="@mipmap/insurance"
+
+            android:text="call"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageButton
+            android:id="@+id/police"
+            android:layout_width="154dp"
+            android:layout_height="107dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="70dp"
+            android:background="@mipmap/gunslingerpolice"
+
             android:text="police"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
 
-        <Button
-            android:id="@+id/callpolice"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginStart="220dp"
-            android:layout_marginTop="18dp"
-            android:text="call"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-        <Button
+        <ImageButton
+
             android:id="@+id/family"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
+            android:layout_width="155dp"
+            android:layout_height="106dp"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="98dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="210dp"
+            android:background="@mipmap/family"
             android:text="family"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-        <Button
-            android:id="@+id/callfamily"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
+            app:layout_constraintVertical_bias="1.0"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginStart="220dp"
-            android:layout_marginTop="98dp"
-            android:text="call"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="115dp"
+            android:background="#66ffffff"
+            android:text="SMS  Police"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"
+            />
+
+        <ImageButton
+
+            android:id="@+id/callpolice"
+            android:layout_width="155dp"
+            android:layout_height="106dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="70dp"
+            android:background="@mipmap/nineoneone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
-        <Button
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="115dp"
+            android:background="#66ffffff"
+            android:text="Call Police"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"
+
+            />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="240dp"
+            android:background="#66ffffff"
+            android:text="SMS  Family"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"
+            />
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="250dp"
+            android:background="#66ffffff"
+            android:text="Call Family"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"/>
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="390dp"
+            android:background="#66ffffff"
+            android:text="Call Insurance"
+            android:visibility="visible"
+            android:textStyle="bold"
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"/>
+
+
+        <ImageButton
             android:id="@+id/insurance"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
+            android:layout_width="159dp"
+            android:layout_height="103dp"
             android:layout_marginBottom="8dp"
             android:layout_marginLeft="20dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="178dp"
-            android:text="insurance"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
-        <Button
-            android:id="@+id/callinsurance"
-            android:layout_width="106dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginStart="220dp"
-            android:layout_marginTop="178dp"
-            android:text="call"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="350dp"
+            android:background="@mipmap/carinurance"
+
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"

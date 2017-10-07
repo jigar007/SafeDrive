@@ -1,6 +1,22 @@
 [
     {
-        "merged": "/Users/robin/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Users/robin/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_settings_phone_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_settings_phone_black_24dp.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_description_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_description_black_24dp.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_location_on_black_48dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_location_on_black_48dp.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxxhdpi/ic_account_circle_black_24dp.png"
     }
 ]

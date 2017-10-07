@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="deb597b5efe5797f2306f60c3cc9ace46c490edf">
-        <dex dex="/Users/robin/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4c602490077d1d8bd961cff20a5502aff21ae4e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/robin/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/robin/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_72085c65da014f40985e24be74000979a032cc65/classes.dex" />
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdcb9649a2a7a4db09293f6d6265c928b32cbda7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53491295c702d05d1881a664d4e0636247a62735">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e4c90b51f3588d2210ef45823831c80709ee2d4/classes.dex" />
     </item>
 
 </items>
