@@ -29,13 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         />
-        <!--app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--app:layout_constraintTop_toTopOf="parent"-->
-        <!--app:layout_constraintVertical_bias="0.0"-->
-        <!--app:layout_constraintRight_toLeftOf="parent"-->
-        <!--android:layout_marginRight="-384dp" />-->
-    <!--tools:layout_editor_absoluteY="0dp"-->
-    <!--tools:layout_editor_absoluteX="8dp"-->
+
     <Button
         android:id="@+id/SOS"
         android:layout_width="88dp"
