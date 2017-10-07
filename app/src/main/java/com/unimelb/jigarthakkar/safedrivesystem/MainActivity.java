@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -14,6 +15,7 @@ import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
@@ -22,18 +24,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
-import android.graphics.Color;
-import android.os.Handler;
 
-import com.google.android.gms.vision.face.Face;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.GridLabelRenderer;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
-import java.util.ArrayList;
-import java.util.concurrent.Executors;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
@@ -49,8 +40,17 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.GridLabelRenderer;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.concurrent.Executors;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.ThreadPoolExecutor;
 
 
 
@@ -300,12 +300,16 @@ public class MainActivity extends FragmentActivity
             if ((standardDev > 80) && (msgSent == false) ) {
                 try {
                     // send the message
-                    String phoneNo = "+61450561102";
-                    String msg = "haha";
+                    SharedPreferences sharedPreferences = getSharedPreferences("userdata",Activity.MODE_PRIVATE);
+                    String familyNumber = sharedPreferences.getString("family","not found");
+
+                    SharedPreferences sharedPreferences1 = getSharedPreferences("test",Activity.MODE_PRIVATE);
+                    String address= sharedPreferences1.getString("currentLocation","not found");
+
                     SmsManager smsManager = SmsManager.getDefault();
-                    smsManager.sendTextMessage(phoneNo, null, msg, null, null);
+                    smsManager.sendTextMessage(familyNumber, null, "I had an accident at" + address, null, null);
                     msgSent = true;
-                    Toast.makeText(getApplicationContext(), "Message Sent",
+                    Toast.makeText(getApplicationContext(), address,
                             Toast.LENGTH_LONG).show();
                 } catch (Exception ex) {
                     Toast.makeText(getApplicationContext(),ex.getMessage().toString(),

@@ -2,30 +2,18 @@ package com.unimelb.jigarthakkar.safedrivesystem;
 
 import android.app.Activity;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
 import android.content.ContentResolver;
-import android.content.Context;
-import android.content.IntentFilter;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.telephony.SmsManager;
 import android.util.Log;
-import android.view.MenuItem;
-import android.widget.EditText;
+import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.content.Intent;
-import android.database.Cursor;
-import android.widget.Button;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Toast;
-
-
 
 import java.util.List;
 
@@ -63,7 +51,10 @@ public class SOSActivity extends AppCompatActivity {
             public void onClick(View v){
                 //  Toast.makeText(SOSActivity.this,readContacts(),Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:" + "13878471868"));
+                SharedPreferences sharedPreferences = getSharedPreferences("userdata",Activity.MODE_PRIVATE);
+                String familyNumber = sharedPreferences.getString("family","not found");
+                intent.setData(Uri.parse("tel:" + familyNumber));
+
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
                 }
@@ -75,7 +66,9 @@ public class SOSActivity extends AppCompatActivity {
             public void onClick(View v){
                 // Toast.makeText(SOSActivity.this,readContacts(),Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:" + "666666"));
+                SharedPreferences sharedPreferences = getSharedPreferences("userdata",Activity.MODE_PRIVATE);
+                String insuranceNumber = sharedPreferences.getString("insurance","not found");
+                intent.setData(Uri.parse("tel:" + insuranceNumber));
                 if (intent.resolveActivity(getPackageManager()) != null) {
                     startActivity(intent);
                 }
@@ -86,7 +79,7 @@ public class SOSActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 SharedPreferences sharedPreferences = getSharedPreferences("test",Activity.MODE_PRIVATE);
-                String test= sharedPreferences.getString("currentAddress","not found");
+                String test= sharedPreferences.getString("currentLocation","not found");
                 String message = test + "  help me ! Traffic Accident!";
                 SendSMS("110",message);
 
@@ -97,9 +90,11 @@ public class SOSActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 SharedPreferences sharedPreferences = getSharedPreferences("test",Activity.MODE_PRIVATE);
-                String test= sharedPreferences.getString("currentAddress","not found");
+                String test= sharedPreferences.getString("currentLocation","not found");
                 String message = test + "  help me ! Traffic Accident!";
-                String familycontact =  sharedPreferences.getString("familycontact","not found");
+
+                SharedPreferences sharedPreferences1 = getSharedPreferences("userdata",Activity.MODE_PRIVATE);
+                String familycontact =  sharedPreferences1.getString("family","not found");
                 SendSMS(familycontact,message);
 
 
@@ -110,9 +105,10 @@ public class SOSActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 SharedPreferences sharedPreferences = getSharedPreferences("test",Activity.MODE_PRIVATE);
-                String test= sharedPreferences.getString("currentAddress","not found");
+                String test= sharedPreferences.getString("currentLocation","not found");
                 String message = test + "  help me ! Traffic Accident!";
-                String insurancecontact =  sharedPreferences.getString("insurancecontact","not found");
+                SharedPreferences sharedPreferences1 = getSharedPreferences("userdata",Activity.MODE_PRIVATE);
+                String insurancecontact =  sharedPreferences1.getString("insurance","not found");
                 SendSMS(insurancecontact,message);
 
             }
