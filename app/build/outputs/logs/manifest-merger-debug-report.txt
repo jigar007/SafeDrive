@@ -212,13 +212,13 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\lenovo\.androi
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\lenovo\.android\build-cache\e996e88ddbfcfd21965a526845b1f717a791d28e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\lenovo\.android\build-cache\cb48d5462ec8e876bb1f00de30f6369c4a0ff1fb\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:27:9-41
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:27:9-32
 	android:supportsRtl
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:28:9-35
 	android:allowBackup
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:26:9-43
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:26:9-42
 	android:theme
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:29:9-59
 uses-library#com.google.android.maps

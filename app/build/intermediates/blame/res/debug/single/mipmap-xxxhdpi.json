@@ -8,6 +8,10 @@
         "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_location_on_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_navigation_black_24dp.png",
+        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_navigation_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_settings_phone_black_24dp.png",
         "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_settings_phone_black_24dp.png"
     },

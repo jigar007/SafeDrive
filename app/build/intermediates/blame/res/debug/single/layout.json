@@ -52,6 +52,10 @@
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_face.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\layout\\activity_face.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout\\abc_screen_simple.xml"
     },
@@ -170,10 +174,6 @@
     {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_maps.xml",
-        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
