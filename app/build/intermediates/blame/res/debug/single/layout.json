@@ -100,6 +100,10 @@
         "source": "C:\\Users\\lenovo\\.android\\build-cache\\5a43987ed754d1a0f3da85f95489966492f82be9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_activitynewsplash.xml",
+        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\layout\\activity_activitynewsplash.xml"
+    },
+    {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
         "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },

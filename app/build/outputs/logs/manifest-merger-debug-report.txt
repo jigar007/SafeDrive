@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:2:1-77:12
 	package
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:3:5-55
 		INJECTED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml
@@ -24,6 +24,8 @@ MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\leno
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-auth-api-phone:11.0.4] C:\Users\lenovo\.android\build-cache\a887136ec5f842e6350a523f7142a3a97ab44750\output\AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] C:\Users\lenovo\.android\build-cache\96dedebcdb841598c92e39cbeeb8c4e797265a2d\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:3:5-43
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] C:\Users\lenovo\.android\build-cache\5752b6b644beac617e1bd95d6bbef98f6258cd77\output\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\lenovo\.android\build-cache\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\output\AndroidManifest.xml:20:5-43
@@ -63,8 +65,6 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\leno
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:23:5-43
 MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\lenovo\.android\build-cache\ca313653d0049c9ce71b4d0c59588dc17b22fe9a\output\AndroidManifest.xml:3:5-43
 MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-auth-base:11.0.4] C:\Users\lenovo\.android\build-cache\96dedebcdb841598c92e39cbeeb8c4e797265a2d\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\lenovo\.android\build-cache\7014f37146234ef66bfa38beb7d2df12bc56c96f\output\AndroidManifest.xml:17:5-43
 MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:17:5-43
 MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\lenovo\.android\build-cache\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\output\AndroidManifest.xml:24:5-26:41
@@ -148,12 +148,13 @@ ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:22
 	android:name
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:22:19-63
 application
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:24:5-71:19
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:24:5-75:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\lenovo\.android\build-cache\2d0c9138e283f0c59af79f973c417215a7be6685\output\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services:11.0.4] C:\Users\lenovo\.android\build-cache\cf06d4c699beb7a28cb9e90dc2fe29fdd5c29d74\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:23:5-26:19
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:26:5-19
 MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:4:5-8:19
 MERGED from [com.google.android.gms:play-services-cast:11.0.4] C:\Users\lenovo\.android\build-cache\5752b6b644beac617e1bd95d6bbef98f6258cd77\output\AndroidManifest.xml:18:5-19
 MERGED from [com.android.support:mediarouter-v7:25.2.0] C:\Users\lenovo\.android\build-cache\eb108bf48423f1f48a4a1b2a5fc0d6ded4f38e6e\output\AndroidManifest.xml:22:5-20
@@ -186,7 +187,6 @@ MERGED from [com.google.android.gms:play-services-wearable:11.0.4] C:\Users\leno
 MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\lenovo\.android\build-cache\db068e32b2c0f34a83d19b2afaedbcf886333396\output\AndroidManifest.xml:24:5-19
 MERGED from [com.google.android.gms:play-services-location:11.0.4] C:\Users\lenovo\.android\build-cache\ca313653d0049c9ce71b4d0c59588dc17b22fe9a\output\AndroidManifest.xml:4:5-19
 MERGED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:11:5-31:19
-MERGED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:19:5-25:19
 MERGED from [com.google.firebase:firebase-auth:11.0.4] C:\Users\lenovo\.android\build-cache\7014f37146234ef66bfa38beb7d2df12bc56c96f\output\AndroidManifest.xml:19:5-20:19
 MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:18:5-20:19
 MERGED from [com.facebook.android:facebook-login:4.27.0] C:\Users\lenovo\.android\build-cache\85ab942d8de0f3efc2e9d08bc00f9adfd1920b21\output\AndroidManifest.xml:28:5-29:19
@@ -228,96 +228,100 @@ ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:30
 	android:name
 		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:31:13-51
 activity#com.unimelb.jigarthakkar.safedrivesystem.SplashActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:34:9-42:20
 	android:theme
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:34:13-48
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:33:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:35:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:40:27-74
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginSignupActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:41:9-57
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:9-57
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:41:19-54
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:19-54
 activity#com.unimelb.jigarthakkar.safedrivesystem.LoginActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:42:9-51
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:9-51
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:42:19-48
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:19-48
 activity#com.unimelb.jigarthakkar.safedrivesystem.SignupActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:9-52
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.MainActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:9-50
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:9-50
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:44:19-47
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:19-47
 activity#com.unimelb.jigarthakkar.safedrivesystem.ProfileActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:9-62
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:9-53
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:45:19-50
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:19-50
 activity#com.unimelb.jigarthakkar.safedrivesystem.RecordActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:9-61
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:48:9-52
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:46:19-49
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:48:19-49
 activity#com.unimelb.jigarthakkar.safedrivesystem.SOSActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:9-58
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:49:9-49
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:47:19-46
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:49:19-46
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:49:9-51:55
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:51:9-53:55
 	android:value
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:51:13-52
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:53:13-52
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:50:13-58
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:52:13-58
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:53:9-54:54
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:54:9-56:55
 	android:value
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:54:13-52
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:56:13-52
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:53:20-65
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:55:13-58
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:56:9-59:47
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:58:9-61:47
 MERGED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:59:13-44
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:61:13-44
 	android:configChanges
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:57:13-114
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:60:13-96
 	android:theme
 		ADDED from [com.facebook.android:facebook-common:4.27.0] C:\Users\lenovo\.android\build-cache\b11764559597862633eed7c7a6e1cfb4d3d37e1f\output\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:56:19-63
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:59:13-57
 activity#com.facebook.CustomTabActivity
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:60:9-69:20
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:62:9-73:20
 	android:exported
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:62:13-36
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:64:13-36
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:61:13-58
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:63:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:63:13-68:29
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:65:13-72:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:64:17-69
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:17-69
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:64:25-66
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:65:17-76
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:68:17-76
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:65:27-73
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:68:27-73
 category#android.intent.category.BROWSABLE
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:17-78
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:69:17-78
 	android:name
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:66:27-75
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:69:27-75
 data
-ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:67:17-75
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:71:17-75
 	android:scheme
-		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:67:23-72
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:71:23-72
+activity#com.unimelb.jigarthakkar.safedrivesystem.Activitynewsplash
+ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:74:9-64
+	android:name
+		ADDED from C:\Users\lenovo\Desktop\SafeDrive\app\src\main\AndroidManifest.xml:74:19-52
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads-lite:11.0.4] C:\Users\lenovo\.android\build-cache\6aa2b6b5f9cbbd5b7d1484d6de2fa847148a3ac2\output\AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-analytics:11.0.4] C:\Users\lenovo\.android\build-cache\9251263183d0ea1a0290cb74358e8dc2a2fbf341\output\AndroidManifest.xml:21:5-78
@@ -360,6 +364,24 @@ action#com.google.android.gms.appinvite.ACTION_PREVIEW
 ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:22:17-89
 	android:name
 		ADDED from [com.google.android.gms:play-services-appinvite:11.0.4] C:\Users\lenovo\.android\build-cache\ebc95b3a54c03f65eba3299966e7cccf2ca9b297\output\AndroidManifest.xml:22:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:18-63
 receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
 ADDED from [com.google.android.gms:play-services-cast-framework:11.0.4] C:\Users\lenovo\.android\build-cache\898f81d6a69b4d7ab87a7d87cb8c7ae5df788ff3\output\AndroidManifest.xml:5:9-99
 	android:name
@@ -434,24 +456,6 @@ ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.and
 		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:29:13-37
 	android:name
 		ADDED from [com.microsoft.azure:azure-mobile-android:3.2.0] C:\Users\lenovo\.android\build-cache\16e1508edc71594105f51245f84c9a78009ec558\output\AndroidManifest.xml:28:13-108
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:9-189
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:129-162
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:163-187
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:69-128
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:20:19-68
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:9-184
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:64-87
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:88-182
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:11.0.4] C:\Users\lenovo\.android\build-cache\59a35532a3e3a9f80a36819171db6365ba610f73\output\AndroidManifest.xml:24:18-63
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\lenovo\.android\build-cache\0d0f95644f990ba86a84daf3455ded30adfda8a1\output\AndroidManifest.xml:19:9-172
 	android:exported

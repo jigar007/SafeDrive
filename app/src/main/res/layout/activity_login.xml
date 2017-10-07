@@ -10,78 +10,69 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/backlist"
+    android:background="@mipmap/login2"
     tools:context="com.unimelb.jigarthakkar.safedrivesystem.LoginActivity">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
-        android:layout_below="@+id/snak"
-        android:layout_alignParentEnd="true"></com.google.android.gms.common.SignInButton>
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/progressBar"
+        android:layout_toEndOf="@+id/fbBtn"
+        android:layout_marginStart="13dp"></com.google.android.gms.common.SignInButton>
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/fbBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/title_s"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/progressBar"
+        android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/googleBtn"
-        android:layout_alignBottom="@+id/googleBtn" />
+        />
 
-    <TextView
-        android:id="@+id/title_s"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:text="Log In"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textSize="35dp" />
+
 
     <EditText
         android:id="@+id/log_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/log_pwd"
-        android:layout_below="@+id/title_s"
-        android:layout_marginTop="28dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="textEmailAddress" />
+        android:inputType="textEmailAddress"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/log_pwd" />
 
     <EditText
         android:id="@+id/log_pwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/log_email"
-        android:layout_centerHorizontal="true"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:layout_below="@+id/log_email"
+        android:layout_centerHorizontal="true" />
 
     <RelativeLayout
         android:id="@+id/snak"
         android:layout_width="fill_parent"
         android:layout_height="60dp"
-        android:layout_alignParentStart="true"
+        android:background="@null"
         android:layout_below="@+id/log_pwd"
-        android:layout_marginTop="29dp"
-        android:background="@null">
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp">
 
         <Button
             android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            android:layout_marginBottom="10dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
-            android:background="#4169E1"
+            android:background="#3672819C"
             android:text="Cancel"
-            android:textColor="#FAFAFA" />
+            android:textColor="#FAFAFA"
+            android:layout_marginStart="53dp"
+            android:layout_alignBottom="@+id/btlogin"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/btlogin" />
 
         <Button
             android:id="@+id/btlogin"
@@ -92,7 +83,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="10dp"
-            android:background="#4169E1"
+            android:background="#3672819C"
             android:text="Login"
             android:textColor="#FAFAFA" />
 
@@ -107,5 +98,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="27dp"
         android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@mipmap/login1"
+        android:layout_alignBottom="@+id/log_email"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

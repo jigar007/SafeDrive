@@ -127,6 +127,7 @@
             android:visibility="visible"
             android:textStyle="bold"
             android:textColor = "#363636"
+            android:focusableInTouchMode="false"
 
             />
         <EditText
@@ -141,7 +142,9 @@
             android:text="SMS  Family"
             android:visibility="visible"
             android:textStyle="bold"
-            android:textColor = "#363636"/>
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"
+            />
         <EditText
             android:id="@+id/editText3"
             android:layout_width="wrap_content"
@@ -154,7 +157,8 @@
             android:text="Call Family"
             android:visibility="visible"
             android:textStyle="bold"
-            android:textColor = "#363636"/>
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"/>
 
         <EditText
             android:id="@+id/editText5"
@@ -168,7 +172,8 @@
             android:text="Call Insurance"
             android:visibility="visible"
             android:textStyle="bold"
-            android:textColor = "#363636"/>
+            android:textColor = "#363636"
+            android:focusableInTouchMode="false"/>
 
 
         <ImageButton

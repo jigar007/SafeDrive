@@ -8,12 +8,12 @@
         "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-mdpi\\ic_account_circle_black_24dp.png"
     },
     {
-        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_navigation_black_24dp.png",
-        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-mdpi\\ic_navigation_black_24dp.png"
-    },
-    {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_settings_phone_black_24dp.png",
         "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-mdpi\\ic_settings_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_navigation_black_24dp.png",
+        "source": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\src\\main\\res\\mipmap-mdpi\\ic_navigation_black_24dp.png"
     },
     {
         "merged": "C:\\Users\\lenovo\\Desktop\\SafeDrive\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",

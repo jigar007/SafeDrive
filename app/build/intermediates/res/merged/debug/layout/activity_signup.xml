@@ -10,7 +10,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/backlist"
+    android:background="@mipmap/signup"
     tools:context="com.unimelb.jigarthakkar.safedrivesystem.SignupActivity">
 
 
@@ -69,7 +69,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
-            android:background="#4169E1"
+            android:background="#80596577"
             android:text="Cancel"
             android:textColor="#FAFAFA" />
 
@@ -83,7 +83,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginRight="40dp"
             android:layout_marginTop="10dp"
-            android:background="#4169E1"
+            android:background="#80596577"
             android:onClick="addItem"
             android:text="Sign Up"
             android:textColor="#FAFAFA" />
