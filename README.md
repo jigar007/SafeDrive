@@ -7,8 +7,9 @@ Mi phone has some problems with senors, so app might crash for MI phones.
 Also if your phone not ask for persmission for Message and Location 
 go to settings > Apps > persmissions to give permission.
 
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screen%20Shot%202017-10-09%20at%203.42.26%20am.png" width="400" height="790">
 
-[![IMAGE ALT TEXT HERE](https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screen%20Shot%202017-10-09%20at%203.42.26%20am.png){:height="50%" width="50%"}](https://youtu.be/w6hoLfU3DRM)
+[![IMAGE ALT TEXT HERE](https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screen%20Shot%202017-10-09%20at%203.42.26%20am.png)](https://youtu.be/w6hoLfU3DRM)
 
 [![IMAGE ALT TEXT HERE](https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screenshot_20171008-200949.png)](https://youtu.be/w6hoLfU3DRM)
 
