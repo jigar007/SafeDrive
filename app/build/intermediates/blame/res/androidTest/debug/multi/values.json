@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/user/.android/build-cache/141cb19d48924977d89060cce822cc4b9a3a3865/output/res/values/values.xml",
+                    "file": "/Users/jigarthakkar/.android/build-cache/47fb331026e2d0d9ee9226951a10e1cad18cb282/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

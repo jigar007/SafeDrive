@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

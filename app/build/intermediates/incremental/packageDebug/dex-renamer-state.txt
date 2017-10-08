@@ -1,7 +1,7 @@
-#Sun Oct 08 00:35:32 AEDT 2017
-base.0=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eaed8d8fce787f5d6b9762e25e005b861d2d7af2
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_67d72514cbcf1c88eb11b7aaec16a0a1acb334fc/classes.dex
-base.1=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_67d72514cbcf1c88eb11b7aaec16a0a1acb334fc
-file.0=/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_eaed8d8fce787f5d6b9762e25e005b861d2d7af2/classes.dex
+#Sun Oct 08 14:21:40 AEDT 2017
+base.0=/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d8695e6bed64661614136e64cfe671e41c7feb86
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9cf0fbfa88da94666008dbe22c71edaf4f380a0f/classes.dex
+base.1=/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9cf0fbfa88da94666008dbe22c71edaf4f380a0f
+file.0=/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d8695e6bed64661614136e64cfe671e41c7feb86/classes.dex

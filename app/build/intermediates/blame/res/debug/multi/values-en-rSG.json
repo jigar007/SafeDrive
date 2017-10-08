@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "outputFile": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/Users/user/.android/build-cache/4b471167a00ce0dd93f339a85d7eb314b6dbb51f/output/res/values-en-rSG/values.xml",
+                    "file": "/Users/jigarthakkar/.android/build-cache/4e0634be06f44ddd46c33e263b0eb466ff84293f/output/res/values-en-rSG/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

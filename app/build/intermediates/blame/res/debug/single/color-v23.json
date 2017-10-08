@@ -1,42 +1,46 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_default.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/color-v23/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color-v23/abc_tint_edittext.xml"
     }
 ]

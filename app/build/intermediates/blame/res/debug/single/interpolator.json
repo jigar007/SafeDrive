@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
-        "source": "/Users/user/.android/build-cache/9bdb24684fab00edb5a082ccad073f7f168ee155/output/res/interpolator/mr_fast_out_slow_in.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/75d8eb5861da50e0ba35e7467ffa4af92ca71998/output/res/interpolator/mr_linear_out_slow_in.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
-        "source": "/Users/user/.android/build-cache/9bdb24684fab00edb5a082ccad073f7f168ee155/output/res/interpolator/mr_linear_out_slow_in.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/75d8eb5861da50e0ba35e7467ffa4af92ca71998/output/res/interpolator/mr_fast_out_slow_in.xml"
     }
 ]

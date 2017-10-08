@@ -1,46 +1,62 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_fade_out.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/background.xml",
-        "source": "/Users/user/Documents/GitHub/SafeDrive/app/src/main/res/anim/background.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_fade_in.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/background.xml",
+        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/anim/background.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/user/.android/build-cache/10b5bda43c1568aa71fd5b8d16d5b825234ad8f2/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/anim/abc_slide_in_bottom.xml"
     }
 ]

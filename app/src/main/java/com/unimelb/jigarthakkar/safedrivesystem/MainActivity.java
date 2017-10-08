@@ -153,7 +153,7 @@ public class MainActivity extends FragmentActivity
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, FaceActivity.class);
+                Intent intent = new Intent(MainActivity.this, FaceTrackerActivity.class);
                 startActivity(intent);
             }
         });

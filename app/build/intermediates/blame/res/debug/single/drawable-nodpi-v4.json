@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder_large.png",
-        "source": "/Users/user/.android/build-cache/73b177a7a46fa9985b409031cc082ee6c7557372/output/res/drawable-nodpi-v4/cast_album_art_placeholder_large.png"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder.png",
+        "source": "/Users/jigarthakkar/.android/build-cache/95616fd960fb78642b4ba7b73ac2c0ff24219499/output/res/drawable-nodpi-v4/cast_album_art_placeholder.png"
     },
     {
-        "merged": "/Users/user/Documents/GitHub/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder.png",
-        "source": "/Users/user/.android/build-cache/73b177a7a46fa9985b409031cc082ee6c7557372/output/res/drawable-nodpi-v4/cast_album_art_placeholder.png"
+        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/cast_album_art_placeholder_large.png",
+        "source": "/Users/jigarthakkar/.android/build-cache/95616fd960fb78642b4ba7b73ac2c0ff24219499/output/res/drawable-nodpi-v4/cast_album_art_placeholder_large.png"
     }
 ]
