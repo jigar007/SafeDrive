@@ -9,5 +9,5 @@ go to settings > Apps > persmissions to give permission.
 
 <B>Click to watch below Video:</B>
 
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screen%20Shot%202017-10-09%20at%203.42.26%20am.png" width="400" height="240">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screen%20Shot%202017-10-09%20at%203.42.26%20am.png" width="400" height="240">(https://youtu.be/w6hoLfU3DRM)
 
