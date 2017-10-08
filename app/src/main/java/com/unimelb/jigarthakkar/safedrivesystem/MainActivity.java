@@ -1,5 +1,7 @@
 package com.unimelb.jigarthakkar.safedrivesystem;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,6 +19,8 @@ import android.location.LocationManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.telephony.SmsManager;
@@ -90,24 +94,7 @@ public class MainActivity extends FragmentActivity
     private LinkedBlockingQueue<Double> accelerationQueue = new LinkedBlockingQueue<>(10);
     private ArrayList<String> visitedAddress = new ArrayList<String>();
 
-
-    protected synchronized void buildGoogleApiClient() {
-        // buile a new client instance to call google map api
-        mGoogleApiClient = new GoogleApiClient.Builder(this)
-                .addConnectionCallbacks(this)
-                .addOnConnectionFailedListener(this)
-                .addApi(LocationServices.API)
-                .build();
-    }
-
-    private void buildLocationRequest() {
-        // settings to get the information about the location
-
-        locationRequest = new LocationRequest();
-        locationRequest.setInterval(1000);
-        locationRequest.setFastestInterval(1000);
-        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-    }
+    private static final int RC_HANDLE_CAMERA_PERM = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -127,6 +114,7 @@ public class MainActivity extends FragmentActivity
         SupportMapFragment fragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.Map);
         fragment.getMapAsync(MainActivity.this);
 
+        requestCameraPermission();
 
         // set the button to jump to SOSActivity
         contact = (Button)findViewById(R.id.SOS);
@@ -232,6 +220,49 @@ public class MainActivity extends FragmentActivity
         liveChartExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(1);
         if (liveChartExecutor != null)
             liveChartExecutor.execute(new AccelerationChart(new AccelerationChartHandler()));
+    }
+
+    /**
+     * Handles the requesting of the camera permission.  This includes
+     * showing a "Snackbar" message of why the permission is needed then
+     * sending the request.
+     */
+    private void requestCameraPermission() {
+        final String[] permissions = new String[]{android.Manifest.permission.CAMERA};
+
+        if (!ActivityCompat.shouldShowRequestPermissionRationale(this,
+                Manifest.permission.CAMERA)) {
+            ActivityCompat.requestPermissions(this, permissions, RC_HANDLE_CAMERA_PERM);
+            return;
+        }
+
+        final Activity thisActivity = this;
+
+        View.OnClickListener listener = new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                ActivityCompat.requestPermissions(thisActivity, permissions,
+                        RC_HANDLE_CAMERA_PERM);
+            }
+        };
+    }
+
+    protected synchronized void buildGoogleApiClient() {
+        // buile a new client instance to call google map api
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .addConnectionCallbacks(this)
+                .addOnConnectionFailedListener(this)
+                .addApi(LocationServices.API)
+                .build();
+    }
+
+    private void buildLocationRequest() {
+        // settings to get the information about the location
+
+        locationRequest = new LocationRequest();
+        locationRequest.setInterval(1000);
+        locationRequest.setFastestInterval(1000);
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
     }
 
     @Override

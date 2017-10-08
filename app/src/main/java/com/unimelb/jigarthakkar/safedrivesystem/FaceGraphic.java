@@ -1,18 +1,4 @@
-/*
- * Copyright (C) The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.unimelb.jigarthakkar.safedrivesystem;
 
 import android.graphics.Canvas;
@@ -39,7 +25,9 @@ class FaceGraphic extends com.unimelb.jigarthakkar.safedrivesystem.camera.Graphi
     private static final float ID_Y_OFFSET = 50.0f;
     private static final float ID_X_OFFSET = -50.0f;
     private static final float BOX_STROKE_WIDTH = 5.0f;
-
+    private static final float THRSHOLD = 0.5f;
+    private Boolean flag = true;
+    int count=0;
     private static final int COLOR_CHOICES[] = {
         Color.BLUE,
         Color.CYAN,
@@ -110,7 +98,16 @@ class FaceGraphic extends com.unimelb.jigarthakkar.safedrivesystem.camera.Graphi
         canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
         canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET*2, y - ID_Y_OFFSET*2, mIdPaint);
 
-        playAlert();
+        float leftEyeProb = face.getIsLeftEyeOpenProbability();
+        float rightEyeProb = face.getIsRightEyeOpenProbability();
+
+        if ( leftEyeProb <THRSHOLD && rightEyeProb<THRSHOLD && leftEyeProb>0 && rightEyeProb>0){
+           count++;
+            if (count>60){
+                playAlert();
+                count=0;
+            }
+        }
 
         // Draws a bounding box around the face.
         float xOffset = scaleX(face.getWidth() / 2.0f);
@@ -124,8 +121,6 @@ class FaceGraphic extends com.unimelb.jigarthakkar.safedrivesystem.camera.Graphi
 
     public void playAlert(){
         try {
-//            Uri path = Uri.parse("android.resource://"+getPackageName()+"/" + R.raw.alert_sound);
-//            Uri path = Uri.parse("/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/raw/" + R.raw.alert_sound);
             Uri path = Uri.parse("android.resource://"+"com.unimelb.jigarthakkar.safedrivesystem"+"/" + R.raw.alert_sound);
             Log.d("path",path.toString());
             // The line below will set it as a default ring tone replace
@@ -136,6 +131,7 @@ class FaceGraphic extends com.unimelb.jigarthakkar.safedrivesystem.camera.Graphi
                     path);
             Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), path);
             r.play();
+
         }
         catch (Exception e) {
             e.printStackTrace();

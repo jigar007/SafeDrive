@@ -6,34 +6,37 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507434116827"
+    timestamp="1507451213394"
     token="852031857427945738"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="852" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="200" />
     <task
         name="verifier"
-        duration="0" />
+        duration="45" />
 
     <artifact
-        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
         location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -54,27 +57,27 @@
         location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
         location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1507434116827"
+        timestamp="1507451213394"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -93,9 +96,6 @@
             type="SPLIT" />
         <artifact
             location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/jigarthakkar/Downloads/SafeDrive/app/build/outputs/apk/app-debug.apk"

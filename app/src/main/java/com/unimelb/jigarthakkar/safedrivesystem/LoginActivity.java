@@ -72,16 +72,14 @@ public class LoginActivity extends AppCompatActivity {
     /**
      * Progress spinner to use for table operations
      */
+
     private ProgressBar mProgressBar;
 
     private SharedPreferences shared;
     private Editor editor;
-
-
     SignInButton button;
     FirebaseAuth mAuth;
     private final static int RC_SIGN_IN = 2;
-
     GoogleApiClient mGoogleApiClient;
     FirebaseAuth.AuthStateListener mAuthListener;
     private CallbackManager mCallbackManager;
@@ -124,7 +122,6 @@ public class LoginActivity extends AppCompatActivity {
             }
         };
 
-
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
@@ -137,7 +134,6 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         }).addApi(Auth.GOOGLE_SIGN_IN_API,gso).build();
-
 
         try {
             // Create the Mobile Service Client instance
@@ -205,17 +201,11 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
         // [END initialize_fblogin]
-
-
     }
-
 
     // [START auth_with_facebook]
     private void handleFacebookAccessToken(AccessToken token) {
         Log.d(TAG, "handleFacebookAccessToken:" + token);
-        // [START_EXCLUDE silent]
-        // [END_EXCLUDE]
-//        showProgressDialog();
         AuthCredential credential = FacebookAuthProvider.getCredential(token.getToken());
         mAuth.signInWithCredential(credential)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -234,28 +224,10 @@ public class LoginActivity extends AppCompatActivity {
 //                            updateUI(null);
                         }
 
-                        // [START_EXCLUDE]
-//                        hideProgressDialog();
-                        // [END_EXCLUDE]
                     }
                 });
     }
-
-
     // [END auth_with_facebook]
-
-// ...
-
-//    @Override
-//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//
-//        // Pass the activity result back to the Facebook SDK
-//        mCallbackManager.onActivityResult(requestCode, resultCode, data);
-//    }
-
-
-
 
     @Override
     public void onStart() {
@@ -401,5 +373,4 @@ public class LoginActivity extends AppCompatActivity {
         }
         return true;
     }
-
 }

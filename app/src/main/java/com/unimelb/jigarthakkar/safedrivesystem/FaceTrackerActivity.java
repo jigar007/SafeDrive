@@ -1,18 +1,4 @@
-/*
- * Copyright (C) The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 package com.unimelb.jigarthakkar.safedrivesystem;
 
 import android.Manifest;
@@ -29,6 +15,7 @@ import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
 
@@ -62,10 +49,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
     // permission request codes need to be < 256
     private static final int RC_HANDLE_CAMERA_PERM = 2;
 
-    //==============================================================================================
-    // Activity Methods
-    //==============================================================================================
-
     /**
      * Initializes the UI and initiates the creation of a face detector.
      */
@@ -85,7 +68,14 @@ public final class FaceTrackerActivity extends AppCompatActivity {
         } else {
             requestCameraPermission();
         }
-        playAlert();
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int width = displayMetrics.widthPixels;
+        int height = displayMetrics.heightPixels;
+
+        Log.d("width",String.valueOf(width));
+
+        Log.d("height",String.valueOf(height));
     }
 
     /**
@@ -137,14 +127,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
                         .build());
 
         if (!detector.isOperational()) {
-            // Note: The first time that an app using face API is installed on a device, GMS will
-            // download a native library to the device in order to do detection.  Usually this
-            // completes before the app is run for the first time.  But if that download has not yet
-            // completed, then the above call will not detect any faces.
-            //
-            // isOperational() can be used to check if the required native library is currently
-            // available.  The detector will automatically become operational once the library
-            // download completes on device.
             Log.w(TAG, "Face detector dependencies are not yet available.");
         }
 
@@ -186,22 +168,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
         }
     }
 
-    /**
-     * Callback for the result from requesting permissions. This method
-     * is invoked for every call on {@link #requestPermissions(String[], int)}.
-     * <p>
-     * <strong>Note:</strong> It is possible that the permissions request interaction
-     * with the user is interrupted. In this case you will receive empty permissions
-     * and results arrays which should be treated as a cancellation.
-     * </p>
-     *
-     * @param requestCode  The request code passed in {@link #requestPermissions(String[], int)}.
-     * @param permissions  The requested permissions. Never null.
-     * @param grantResults The grant results for the corresponding permissions
-     *                     which is either {@link PackageManager#PERMISSION_GRANTED}
-     *                     or {@link PackageManager#PERMISSION_DENIED}. Never null.
-     * @see #requestPermissions(String[], int)
-     */
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         if (requestCode != RC_HANDLE_CAMERA_PERM) {
@@ -233,10 +199,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
                 .show();
     }
 
-    //==============================================================================================
-    // Camera Source Preview
-    //==============================================================================================
-
     /**
      * Starts or restarts the camera source, if it exists.  If the camera source doesn't exist yet
      * (e.g., because onResume was called before the camera source was created), this will be called
@@ -263,10 +225,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
             }
         }
     }
-
-    //==============================================================================================
-    // Graphic Face Tracker
-    //==============================================================================================
 
     /**
      * Factory for creating a face tracker to be associated with a new face.  The multiprocessor
@@ -326,26 +284,6 @@ public final class FaceTrackerActivity extends AppCompatActivity {
         @Override
         public void onDone() {
             mOverlay.remove(mFaceGraphic);
-        }
-    }
-
-    public void playAlert(){
-        try {
-//            Uri path = Uri.parse("android.resource://"+getPackageName()+"/" + R.raw.alert_sound);
-//            Uri path = Uri.parse("/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/raw/" + R.raw.alert_sound);
-            Uri path = Uri.parse("android.resource://"+"com.unimelb.jigarthakkar.safedrivesystem"+"/" + R.raw.alert_sound);
-            Log.d("path",path.toString());
-            // The line below will set it as a default ring tone replace
-            // RingtoneManager.TYPE_RINGTONE with RingtoneManager.TYPE_NOTIFICATION
-            // to set it as a notification tone
-            RingtoneManager.setActualDefaultRingtoneUri(
-                    getApplicationContext(), RingtoneManager.TYPE_RINGTONE,
-                    path);
-            Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), path);
-            r.play();
-        }
-        catch (Exception e) {
-            e.printStackTrace();
         }
     }
 
