@@ -21,15 +21,15 @@ Locating,Detecting dozing during driving,Sending SOS automatically.
 
 <B>ScreenShots:</B>
 
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/2.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/3.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/4.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/5.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/6.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/7.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/8.png" width="360" height="640">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/9.png" width="360" height="640">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/2.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/3.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/4.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/5.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/6.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/7.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/8.png" width="180" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/9.png" width="180" height="320">
 
 <B>Note: This app is tested on Samsung Galaxy S6 edge plus.</B>
 <ul>
