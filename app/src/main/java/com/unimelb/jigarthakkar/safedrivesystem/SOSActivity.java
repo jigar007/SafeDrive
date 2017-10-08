@@ -1,4 +1,6 @@
 package com.unimelb.jigarthakkar.safedrivesystem;
+/**  * Created by jiameng on 10/4/17.  */
+
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -21,8 +23,14 @@ public class SOSActivity extends AppCompatActivity {
 
     private TextView mTextMessage;
     private ImageButton police;
+    // set a Button to SMS police
+
     private ImageButton family;
+    //set a Button to SMS family
+
     private ImageButton insurance;
+    // set a Button to SMS insurance
+
     private ImageButton policesms;
     private ImageButton familysms;
     private ImageButton insurancesms;
@@ -31,6 +39,10 @@ public class SOSActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        /* interact with background data to get each users emergency contact 
+           * and insurance number */
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sos2);
         police = (ImageButton)findViewById(R.id.callpolice);
@@ -117,6 +129,8 @@ public class SOSActivity extends AppCompatActivity {
     }
     @Override
     public void onBackPressed(){
+        /*It is a function to find the phone's contacts and take a call.*/
+
         super.onBackPressed();
         Intent intent = new Intent(SOSActivity.this, MainActivity.class);
         startActivity(intent);
@@ -152,8 +166,9 @@ public class SOSActivity extends AppCompatActivity {
         return name + number;
     }
     //EditText text = (EditText)findViewById(R.id.callpolice);
-//String match = text.getText().toString();
+    //String match = text.getText().toString();
     public void SendSMS(String phoneNumber,String message){
+        /* it is a function to allow this app to send a message */
         String SENT_SMS_ACTION = "SENT_SMS_ACTION";
         Intent sentIntent = new Intent(SENT_SMS_ACTION);
         PendingIntent sendIntent= PendingIntent.getBroadcast(SOSActivity.this, 0, sentIntent,

@@ -13,10 +13,6 @@
     android:background="@mipmap/signup"
     tools:context="com.unimelb.jigarthakkar.safedrivesystem.SignupActivity">
 
-
-
-
-
     <EditText
         android:id="@+id/Name"
         android:layout_width="wrap_content"
@@ -87,7 +83,6 @@
             android:onClick="addItem"
             android:text="Sign Up"
             android:textColor="#FAFAFA" />
-
     </RelativeLayout>
 
     <ProgressBar

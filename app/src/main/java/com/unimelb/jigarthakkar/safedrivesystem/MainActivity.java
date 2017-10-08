@@ -58,7 +58,9 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 
 
-
+/*
+ * created by Ruobing Leng
+ */
 public class MainActivity extends FragmentActivity
         implements OnMapReadyCallback,
         GoogleApiClient.OnConnectionFailedListener,
@@ -589,4 +591,3 @@ public class MainActivity extends FragmentActivity
         }
     }
 }
-
