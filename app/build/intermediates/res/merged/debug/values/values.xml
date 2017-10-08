@@ -1185,6 +1185,8 @@
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="profile">Profile</string>
+    <string name="record">Record</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
     <string name="s3">Accept</string>

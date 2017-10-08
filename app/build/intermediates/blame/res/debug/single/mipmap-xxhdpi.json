@@ -1,22 +1,26 @@
 [
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_navigation_black_24dp.png",
-        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_navigation_black_24dp.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_navigation_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_navigation_black_24dp.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_description_black_24dp.png",
-        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_description_black_24dp.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_account_circle_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_account_circle_black_24dp.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_settings_phone_black_24dp.png",
-        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_settings_phone_black_24dp.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_settings_phone_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_settings_phone_black_24dp.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_account_circle_black_24dp.png",
-        "source": "/Users/jigarthakkar/Downloads/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_account_circle_black_24dp.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_description_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_description_black_24dp.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_border_color_black_24dp.png",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/mipmap-xxhdpi/ic_border_color_black_24dp.png"
     }
 ]

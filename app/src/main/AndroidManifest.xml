@@ -85,18 +85,7 @@
         </activity>
         <activity android:name=".Activitynewsplash"></activity>
 
-        <activity
-            android:name="com.unimelb.jigarthakkar.safedrivesystem.FaceTrackerActivity"
-            android:label="Face Tracker"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:screenOrientation="fullSensor">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".FaceTrackerActivity" />
 
     </application>
-
 </manifest>

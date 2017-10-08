@@ -27,6 +27,7 @@ import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -137,8 +138,8 @@ public class MainActivity extends FragmentActivity
         });
 
         // set the button to jump to ProfileActivity
-        profile = (Button)findViewById(R.id.face);
-        profile.setOnClickListener(new View.OnClickListener() {
+        face = (Button)findViewById(R.id.face);
+        face.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, FaceTrackerActivity.class);

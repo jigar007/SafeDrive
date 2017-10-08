@@ -103,17 +103,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.Activitynewsplash" />
-        <activity
-            android:name="com.unimelb.jigarthakkar.safedrivesystem.FaceTrackerActivity"
-            android:label="Face Tracker"
-            android:screenOrientation="fullSensor"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.unimelb.jigarthakkar.safedrivesystem.FaceTrackerActivity" />
 
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

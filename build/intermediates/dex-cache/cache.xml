@@ -3,39 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
-        <dex dex="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83180dbbd66bcc7f1cc7317450725ad2d294458f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jigarthakkar/.android/build-cache/447ecc4dffc301e3d4d2344557ba8651c01bc254/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
-        <dex dex="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35689e3726d5c8cda890f2972e3ddf9e8ed48697/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d8695e6bed64661614136e64cfe671e41c7feb86/classes.dex" />
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdcb9649a2a7a4db09293f6d6265c928b32cbda7/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="83038022223c8c2664d0628e0ca1f4b51f684c6b">
-        <dex dex="/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9cf0fbfa88da94666008dbe22c71edaf4f380a0f/classes.dex" />
+        sha1="77d80f22079bb93526ee579d0f6f9abcf6312186">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e4c90b51f3588d2210ef45823831c80709ee2d4/classes.dex" />
     </item>
 
 </items>

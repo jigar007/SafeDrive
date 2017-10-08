@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
-    },
-    {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
         "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/jigarthakkar/Downloads/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
         "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/jigarthakkar/.android/build-cache/c3bca7b344b0edd5d0e3d2fe273adac0e0ba5079/output/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
     }
 ]
