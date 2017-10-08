@@ -9,8 +9,9 @@ Now people may have a experience about fatigue driving but it is so dangerous fo
 
 
 <B>Note: This app is tested on Samsung Galaxy S6 edge plus.</B>
-This app requires atleast Android 5.1 Lolipop but we recommend to 7.0 Nougat.
-Also recommend to use device less than 1 year old.
-Mi phone has some problems with senors, so app might crash for MI phones.
-Also if your phone not ask for persmission for Message and Location 
-go to settings > Apps > persmissions to give permission.
+<ul>
+ <li>This app requires atleast Android 5.1 Lolipop but we recommend to 7.0 Nougat.</li>
+ <li>Wee rcommend to use device less than 1 year old.</li>
+ <li>Mi phone has some problems with senors, so app might crash for MI phones.</li>
+ <li>If your phone not ask for persmission for Message and Location go to settings > Apps > persmissions to give permission.</li>
+</ul>
