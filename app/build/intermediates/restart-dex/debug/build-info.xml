@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507458090886"
+    timestamp="1507459416847"
     token="561832327669248428"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1507457397693"
+        timestamp="1507458958502"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/outputs/apk/app-debug.apk"
@@ -70,15 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507458021725"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1507458090886"
+        timestamp="1507459416847"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/jigarthakkar/Desktop/SafeDrive/app/build/outputs/apk/app-debug.apk"
