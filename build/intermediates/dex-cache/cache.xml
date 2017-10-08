@@ -3,21 +3,255 @@
 
     <item
         is-multidex="true"
-        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bdcb9649a2a7a4db09293f6d6265c928b32cbda7/classes.dex" />
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-applinks-1.4.0_dcc5366bc0626c899ef17acfac0becef2774d4e3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="/Users/jigarthakkar/.android/build-cache/d17238ab7246349c849d45fd8ad9017ce3f4f3bb/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="77d80f22079bb93526ee579d0f6f9abcf6312186">
-        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0e4c90b51f3588d2210ef45823831c80709ee2d4/classes.dex" />
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_812e739f833d07bb134a44fbfcc3085b4463b9f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/d7cdcab566c915df4c1748f8ac9cea3e6c72fab0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_45038a3af930fd169463bec44ac265a075a390d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/a96290cd22deea0b0ee9503c6c6928466311b590/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f1933fdd59ae4f80e4637d5a64f1626a3990da0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/3b654f562c3df1218f52491da7e1138589afc4ee/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_006032fd105919b2c431dba573ecdee65abab1d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83180dbbd66bcc7f1cc7317450725ad2d294458f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/447ecc4dffc301e3d4d2344557ba8651c01bc254/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_35689e3726d5c8cda890f2972e3ddf9e8ed48697/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/3a0ce12228233238ea5d76e1e451a76b2188ca07/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a964fc2c5c9be0bd07c13de305a2f0289ed3398/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/c12425d8e9f0576e9060df96aba1cc1ecc997954/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f3749db99d24d1f9adb25e7d5a663cc55b8f52ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_2a723f57d73c257ea61c977f71a66dd23e230508/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0965ea3060767d7e158203eb48d9d5daf11a0971/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/azure-notifications-handler/1.0.1/c322af100020e6db539f2aa367698d4b88fc453f/azure-notifications-handler-1.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c322af100020e6db539f2aa367698d4b88fc453f">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/azure-notifications-handler-1.0.1_fb2dfd69f0cf5321aa76c93b92408439bd120aad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_127fe08211c3c0bf23b9fc18cba946ad5ecefcf8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/14df236b5da57b1cf33e48fbb51fba6785ac3a8f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bc9ea2bc291bbebc83f5b160d115c699bddc4e16">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8a126375538ceac6f43d3a964095e6e589a9f44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/d9f90f2c722840e6c915970de7454624a354a638/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0de34225054d7b90e404985df57ae67b233cdf23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.5.0_5d00acbfd2579d122302812b65c67c03b6b1750d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/73086a2711d67ce5f2c98f06e3226402128aab19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="252896ce41f2a84a2849e29235e66098be7d12ee">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87890832ec03abd6159e499bf0325243d8149605/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_8bf482e9dd9873e5dba5888fe9e734c5a9d3a902/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/44f891c5d3edde32ce84bbfc07bc19a3b728848b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34bd517cbc54c4d2a312893492b2c9b36d271480/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/33ac0fdcc93356a2cce77d52b552d4763a95d662/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0db4ce860ca46c9e1842a34d1d454b4c899f95e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-18.0_e11ced1631feb7c9800790c98fd765d3bed1b86c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/ca46426835416fcc6584f49462781b32313bee59/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="814fc0c3ec69a944add398217d90077301501a74">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01260f98998aeee84516f9cd6768dbb5b97aacc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/e2f0ba1c7be438b9bed884d77bf8127e66d9a980/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b5ed05574ca7f8eeba9980f82e7acdd610f1b44b">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d0652caba88d157102c33cc6e64eef272a97feaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/ee01d2460156a5c58f5891f34f0594434d9fd0ff/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a530e4242ce7ba499b573857007414d771fc0c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/494351edd82fef61ab941c75966034da1e120c76/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b4982809a8af75cfbc14c8663f86f8e3a0131eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.android/build-cache/2fa8d48290dd05aae4ad7aeae51c69c079022b58/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de76e26d6671164243375deb8a57a0af15fd7d89/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.3.0_816ef85cd15cff82164a7741815a066b23b661c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jigarthakkar/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3_69820cff802dc11a7dcbce457383f04f71574df2/classes.dex" />
     </item>
 
 </items>

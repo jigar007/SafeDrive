@@ -4,16 +4,16 @@
         "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/layout/design_bottom_sheet_dialog.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/jigarthakkar/Desktop/SafeDrive/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/bd458828dd6bc090926c4dedb98c320243a52f77/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",

@@ -28,12 +28,12 @@
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_light.xml"
-    },
-    {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/Users/jigarthakkar/.android/build-cache/33b8972746aeb004678b8ed3ac2122b5a7bd423d/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/jigarthakkar/Desktop/SafeDrive/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
