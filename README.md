@@ -21,7 +21,9 @@ Locating,Detecting dozing during driving,Sending SOS automatically.
 
 <B>ScreenShots:</B>
 
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="200" height="300">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="640" height="360">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/2.png" width="640" height="360">
+
 
 <B>Note: This app is tested on Samsung Galaxy S6 edge plus.</B>
 <ul>
