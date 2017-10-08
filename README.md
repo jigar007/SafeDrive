@@ -1,6 +1,6 @@
 # SafeDriving
 
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/wedrive.png" width="130" height="100" align="middle">
+<center><img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/wedrive.png" width="130" height="100"></center>
 
 This is an implementation of an Android application which can be used to make driving safe using various techniques which include shock detection and real-time dozing off monitoring.
 
