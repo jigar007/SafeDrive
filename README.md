@@ -1,6 +1,7 @@
 # SafeDriving
 
-<center><img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/wedrive.png" width="130" height="100"></center>This is an implementation of an Android application which can be used to make driving safe using various techniques which include shock detection and real-time dozing off monitoring.
+This is an implementation of an Android application which can be used to make driving safe using various techniques which include shock detection and real-time dozing off monitoring.
+
 
 <B>Introduction:</B>
 People may have a experience about fatigue driving but it is so dangerous for drivers and passengers. We decide to implement an android application WeDrive to detect closing eyes by cognitive service and keep safe driving by multiple sensors. For example, when drivers suffer a car accident and lose consciousness, WeDrive can detect accident and automatically send SOS messages to family contactor and insurance company by Azure SQL server. It is also convenient for drivers to dial quickly. KEEP SAFE, KEEP HAPPY.
