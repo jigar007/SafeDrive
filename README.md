@@ -9,3 +9,5 @@ go to settings > Apps > persmissions to give permission.
 
 
 [![IMAGE ALT TEXT HERE](https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screenshot_20171008-200949.png)](https://youtu.be/w6hoLfU3DRM)
+
+[![IMAGE ALT TEXT HERE](https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/Screenshot_20171008-200955.png)]
