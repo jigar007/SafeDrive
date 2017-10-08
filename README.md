@@ -21,17 +21,19 @@ Locating,Detecting dozing during driving,Sending SOS automatically.
 
 <B>ScreenShots:</B>
 
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/2.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/3.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/4.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/5.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/6.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/7.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/8.png" width="170" height="320">
-<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/9.png" width="170" height="320">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/1.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/2.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/3.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/4.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/5.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/s.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/6.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/7.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/8.png" width="170" height="302">
+<img src="https://github.com/thakkarj/SafeDrive/blob/master/Screenshots/9.png" width="170" height="302">
 
 <B>Note: This app is tested on Samsung Galaxy S6 edge plus.</B>
+
 <ul>
  <li>This app requires atleast Android 5.1 Lolipop but we recommend to 7.0 Nougat.</li>
  <li>Wee rcommend to use device less than 1 year old.</li>
